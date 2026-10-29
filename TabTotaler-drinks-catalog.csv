@@ -1,0 +1,1071 @@
+id,name,brand,category,abv,defaultMl,servingKind,kcal,source,version,barcodes
+light-beer-4-oz-flight-pour,Light Beer — 4 oz flight pour,,beer_light,4.2,118.3,flight,32,curated,1,
+bud-light,Bud Light,,beer_light,4.2,354.9,can,110,curated,1,
+coors-light,Light,Coors,beer_light,4.2,354.9,can,102,curated,1,
+miller-lite,Miller Lite,,beer_light,4.2,354.9,can,96,curated,1,
+michelob-ultra,Ultra,Michelob,beer_light,3.5,354.9,can,95,curated,1,
+natural-light,Natural Light,,beer_light,4.0,354.9,can,95,curated,1,
+keystone-light,Light,Keystone,beer_light,4.1,354.9,can,104,curated,1,
+busch-light,Light,Busch,beer_light,4.1,354.9,can,100,curated,1,
+pabst-blue-ribbon-light,Light,Pabst Blue Ribbon,beer_light,3.8,354.9,can,84,curated,1,
+oskar-blues-dale-s-light-lager,Dale's Light Lager,Oskar Blues,beer_light,4.2,354.9,can,110,curated,1,
+standard-lager-ale-4-oz-flight-pour,Standard Lager/Ale — 4 oz flight pour,,beer_standard,5.0,118.3,flight,45,curated,1,
+budweiser,Budweiser,,beer_standard,5.0,354.9,can,145,curated,1,
+miller-high-life,Miller High Life,,beer_standard,5.0,354.9,can,141,curated,1,
+coors-banquet,Banquet,Coors,beer_standard,5.0,354.9,can,149,curated,1,
+corona-extra,Extra,Corona,beer_standard,4.6,354.9,can,148,curated,1,
+heineken,Heineken,,beer_standard,5.0,354.9,can,142,curated,1,
+stella-artois,Stella Artois,,beer_standard,5.0,354.9,can,141,curated,1,
+dos-equis-lager,Lager,Dos Equis,beer_standard,4.5,354.9,can,130,curated,1,
+modelo-especial,Especial,Modelo,beer_standard,4.4,354.9,can,143,curated,1,
+negra-modelo,Negra Modelo,,beer_standard,5.4,354.9,can,151,curated,1,
+tecate,Tecate,,beer_standard,4.5,354.9,can,133,curated,1,
+pacifico,Pacifico,,beer_standard,4.5,354.9,can,131,curated,1,
+rolling-rock,Rolling Rock,,beer_standard,4.5,354.9,can,133,curated,1,
+pabst-blue-ribbon,Pabst Blue Ribbon,,beer_standard,4.8,354.9,can,153,curated,1,
+guinness-draught,Draught,Guinness,beer_standard,4.2,354.9,can,125,curated,1,
+newcastle-brown-ale,Brown Ale,Newcastle,beer_standard,5.0,354.9,can,138,curated,1,
+bass-pale-ale,Pale Ale,Bass,beer_standard,4.7,354.9,can,156,curated,1,
+sierra-nevada-nooner-pilsner,Nooner Pilsner,Sierra Nevada,beer_standard,5.0,354.9,can,155,curated,1,
+new-belgium-fat-tire-amber-ale,Fat Tire Amber Ale,New Belgium,beer_standard,5.2,354.9,can,160,curated,1,
+oskar-blues-mas-lima-lime-lager,Mas Lima Lime Lager,Oskar Blues,beer_standard,4.2,354.9,can,128,curated,1,
+stone-tropic-of-thunder-lager,Tropic of Thunder Lager,Stone,beer_standard,5.8,354.9,can,175,curated,1,
+stone-buenaveza-salt-lime-lager,Buenaveza Salt & Lime Lager,Stone,beer_standard,4.7,354.9,can,145,curated,1,
+stone-levitation-amber-ale,Levitation Amber Ale,Stone,beer_standard,4.4,354.9,can,138,curated,1,
+stone-arrogant-bastard-ale,Arrogant Bastard Ale,Stone,beer_standard,7.2,354.9,can,215,curated,1,
+new-belgium-krusovice-bohemian-lager,Krusovice Bohemian Lager,New Belgium,beer_standard,5.0,354.9,can,150,curated,1,
+wheat-belgian-4-oz-flight-pour,Wheat / Belgian — 4 oz flight pour,,beer_wheat,5.4,118.3,flight,47,curated,1,
+blue-moon-belgian-white,Belgian White,Blue Moon,beer_wheat,5.4,354.9,can,168,curated,1,
+shock-top-belgian-white,Belgian White,Shock Top,beer_wheat,5.5,354.9,can,140,curated,1,
+hoegaarden,Hoegaarden,,beer_wheat,5.1,354.9,can,167,curated,1,
+allagash-white,White,Allagash,beer_wheat,5.1,354.9,can,145,curated,1,
+weihenstephaner-hefeweizen,Hefeweizen,Weihenstephaner,beer_wheat,5.0,354.9,can,180,curated,1,
+paulaner-hefeweizen,Hefeweizen,Paulaner,beer_wheat,5.4,354.9,can,197,curated,1,
+duvel,Duvel,,beer_wheat,6.0,331.2,can,137,curated,1,
+wittekerke,Wittekerke,,beer_wheat,5.0,354.9,can,118,curated,1,
+sierra-nevada-kellerweis-hefeweizen,Kellerweis Hefeweizen,Sierra Nevada,beer_wheat,4.8,354.9,can,155,curated,1,
+new-belgium-trippel-belgian-style-ale,Trippel Belgian Style Ale,New Belgium,beer_wheat,7.8,354.9,can,220,curated,1,
+ipa-pale-ale-4-oz-flight-pour,IPA / Pale Ale — 4 oz flight pour,,beer_ipa,6.5,118.3,flight,56,curated,1,
+sierra-nevada-pale-ale,Pale Ale,Sierra Nevada,beer_ipa,5.0,354.9,can,175,curated,1,
+goose-island-ipa,IPA,Goose Island,beer_ipa,6.2,354.9,can,152,curated,1,
+dogfish-head-60-min-ipa,60 Min IPA,Dogfish Head,beer_ipa,6.0,354.9,can,147,curated,1,
+stone-ipa,IPA,Stone,beer_ipa,6.9,354.9,can,196,curated,1,
+lagunitas-ipa,IPA,Lagunitas,beer_ipa,7.0,354.9,can,191,curated,1,
+founders-all-day-ipa,All Day IPA,Founders,beer_ipa,4.7,354.9,can,147,curated,1,
+bell-s-two-hearted-ale,Two Hearted Ale,Bell's,beer_ipa,7.2,354.9,can,195,curated,1,
+harpoon-ipa,IPA,Harpoon,beer_ipa,6.5,354.9,can,159,curated,1,
+new-belgium-voodoo-ranger-ipa,Voodoo Ranger IPA,New Belgium,beer_ipa,7.5,354.9,can,184,curated,1,
+dogfish-head-90-min-ipa,90 Min IPA,Dogfish Head,beer_ipa,8.0,354.9,can,196,curated,1,
+double-imperial-ipa-typical,Double/Imperial IPA — Typical,,beer_ipa,8.5,354.9,can,208,curated,1,
+sierra-nevada-hazy-little-thing-ipa,Hazy Little Thing IPA,Sierra Nevada,beer_ipa,6.7,354.9,can,200,curated,1,
+sierra-nevada-celebration-ipa,Celebration IPA,Sierra Nevada,beer_ipa,6.8,354.9,can,195,curated,1,
+sierra-nevada-sunnyside-session-ipa,Sunnyside Session IPA,Sierra Nevada,beer_ipa,4.8,354.9,can,150,curated,1,
+oskar-blues-hazy-blues-hazy-ipa,Hazy Blues Hazy IPA,Oskar Blues,beer_ipa,6.5,354.9,can,190,curated,1,
+oskar-blues-dale-s-double-ipa,Dale's Double IPA,Oskar Blues,beer_ipa,9.0,354.9,can,255,curated,1,
+new-belgium-juicy-haze-ipa,Juicy Haze IPA,New Belgium,beer_ipa,6.4,354.9,can,190,curated,1,
+new-belgium-rampant-imperial-ipa,Rampant Imperial IPA,New Belgium,beer_ipa,8.5,354.9,can,240,curated,1,
+new-belgium-accumulation-white-ipa,Accumulation White IPA,New Belgium,beer_ipa,6.2,354.9,can,185,curated,1,
+stone-ruination-double-ipa,Ruination Double IPA,Stone,beer_ipa,8.2,354.9,can,235,curated,1,
+stone-enjoy-by-ipa,Enjoy By IPA,Stone,beer_ipa,9.4,354.9,can,265,curated,1,
+stone-delicious-ipa,Delicious IPA,Stone,beer_ipa,7.7,354.9,can,220,curated,1,
+stone-hazy-ipa,Hazy IPA,Stone,beer_ipa,6.7,354.9,can,195,curated,1,
+stone-tangerine-express-ipa,Tangerine Express IPA,Stone,beer_ipa,6.7,354.9,can,195,curated,1,
+stone-go-to-ipa-session,Go To IPA Session,Stone,beer_ipa,4.5,354.9,can,140,curated,1,
+stone-mocha-ipa,Mocha IPA,Stone,beer_ipa,5.2,354.9,can,160,curated,1,
+stone-ripper-session-ale,Ripper Session Ale,Stone,beer_ipa,4.5,354.9,can,138,curated,1,
+stout-porter-4-oz-flight-pour,Stout / Porter — 4 oz flight pour,,beer_dark,7.0,118.3,flight,60,curated,1,
+guinness-extra-stout,Extra Stout,Guinness,beer_dark,4.2,354.9,can,107,curated,1,
+samuel-adams-boston-lager,Boston Lager,Samuel Adams,beer_dark,5.0,354.9,can,153,curated,1,
+founders-porter,Porter,Founders,beer_dark,6.5,354.9,can,182,curated,1,
+deschutes-black-butte-porter,Black Butte Porter,Deschutes,beer_dark,5.2,354.9,can,157,curated,1,
+north-coast-old-rasputin-stout,Old Rasputin Stout,North Coast,beer_dark,9.0,354.9,can,231,curated,1,
+rogue-shakespeare-stout,Shakespeare Stout,Rogue,beer_dark,6.1,354.9,can,175,curated,1,
+goose-island-bourbon-county-stout,Bourbon County Stout,Goose Island,beer_dark,14.2,354.9,can,333,curated,1,
+new-belgium-1554-black-lager,1554 Black Lager,New Belgium,beer_dark,5.6,354.9,can,165,curated,1,
+sierra-nevada-porter,Porter,Sierra Nevada,beer_dark,5.6,354.9,can,178,curated,1,
+sierra-nevada-narwhal-imperial-stout,Narwhal Imperial Stout,Sierra Nevada,beer_dark,10.8,354.9,can,290,curated,1,
+sierra-nevada-bigfoot-barleywine,Bigfoot Barleywine,Sierra Nevada,beer_dark,9.6,354.9,can,265,curated,1,
+oskar-blues-ten-fidy-imperial-stout,Ten FIDY Imperial Stout,Oskar Blues,beer_dark,10.5,354.9,can,285,curated,1,
+oskar-blues-old-chub-scottish-ale,Old Chub Scottish Ale,Oskar Blues,beer_dark,8.0,354.9,can,230,curated,1,
+oskar-blues-gnarwhal-imperial-stout,Gnarwhal Imperial Stout,Oskar Blues,beer_dark,8.0,354.9,can,225,curated,1,
+stone-xocoveza-mocha-stout,Xocoveza Mocha Stout,Stone,beer_dark,8.1,354.9,can,230,curated,1,
+stone-old-guardian-barleywine,Old Guardian Barleywine,Stone,beer_dark,11.3,354.9,can,310,curated,1,
+stone-vertical-epic-ale,Vertical Epic Ale,Stone,beer_dark,9.0,354.9,can,255,curated,1,
+sour-saison-4-oz-flight-pour,Sour / Saison — 4 oz flight pour,,beer_sour,5.5,118.3,flight,48,curated,1,
+new-belgium-la-folie,La Folie,New Belgium,beer_sour,6.5,354.9,can,153,curated,1,
+allagash-saison,Saison,Allagash,beer_sour,6.1,354.9,can,175,curated,1,
+dogfish-head-seaquench-ale,SeaQuench Ale,Dogfish Head,beer_sour,4.9,354.9,can,141,curated,1,
+lindemans-framboise,Framboise,Lindemans,beer_sour,2.5,354.9,can,94,curated,1,
+ommegang-witte,Witte,Ommegang,beer_sour,5.5,354.9,can,129,curated,1,
+rodenbach-grand-cru,Grand Cru,Rodenbach,beer_sour,6.0,354.9,can,173,curated,1,
+light-beer-flight-44-oz,Light Beer Flight — 4×4 oz,,flight,4.0,473.2,flight,178,curated,1,
+session-beer-flight-44-oz,Session Beer Flight — 4×4 oz,,flight,4.5,473.2,flight,191,curated,1,
+standard-beer-flight-44-oz,Standard Beer Flight — 4×4 oz,,flight,5.5,473.2,flight,217,curated,1,
+craft-beer-flight-44-oz,Craft Beer Flight — 4×4 oz,,flight,6.5,473.2,flight,243,curated,1,
+ipa-flight-44-oz,IPA Flight — 4×4 oz,,flight,7.0,473.2,flight,256,curated,1,
+hazy-neipa-flight-44-oz,Hazy / NEIPA Flight — 4×4 oz,,flight,7.5,473.2,flight,269,curated,1,
+double-ipa-strong-ale-flight-44-oz,Double IPA / Strong Ale Flight — 4×4 oz,,flight,8.5,473.2,flight,295,curated,1,
+imperial-stout-barleywine-flight-44-oz,Imperial Stout / Barleywine Flight — 4×4 oz,,flight,10.0,473.2,flight,335,curated,1,
+white-claw-original,Original,White Claw,seltzer,5.0,354.9,can,100,curated,1,
+white-claw-surge,Surge,White Claw,seltzer,8.0,473.2,can,228,curated,1,
+truly-hard-seltzer,Hard Seltzer,Truly,seltzer,5.0,354.9,can,100,curated,1,
+bud-light-seltzer,Seltzer,Bud Light,seltzer,5.0,354.9,can,110,curated,1,
+high-noon-hard-seltzer,Hard Seltzer,High Noon,seltzer,4.5,354.9,can,100,curated,1,
+corona-hard-seltzer,Hard Seltzer,Corona,seltzer,4.5,354.9,can,90,curated,1,
+vizzy-hard-seltzer,Hard Seltzer,Vizzy,seltzer,5.0,354.9,can,100,curated,1,
+topo-chico-hard-seltzer,Hard Seltzer,Topo Chico,seltzer,4.7,354.9,can,100,curated,1,
+bon-viv-spiked-seltzer,Spiked Seltzer,Bon & Viv,seltzer,4.5,354.9,can,93,curated,1,
+coors-seltzer,Seltzer,Coors,seltzer,5.0,354.9,can,103,curated,1,
+twisted-tea-original,Original,Twisted Tea,seltzer,5.0,354.9,can,194,curated,1,
+twisted-tea-light,Light,Twisted Tea,seltzer,4.0,354.9,can,123,curated,1,
+surfside-iced-tea-vodka,Iced Tea + Vodka,Surfside,seltzer,4.6,354.9,can,135,curated,1,
+smirnoff-ice,Ice,Smirnoff,seltzer,5.0,354.9,can,228,curated,1,
+mike-s-hard-lemonade,Hard Lemonade,Mike's,seltzer,5.0,354.9,can,220,curated,1,
+truly-lemonade,Lemonade,Truly,seltzer,5.0,354.9,can,103,curated,1,
+hard-cider-4-oz-tasting-pour,Hard Cider — 4 oz tasting pour,,cider,5.0,118.3,can,49,curated,1,
+angry-orchard-crisp-apple,Crisp Apple,Angry Orchard,cider,5.0,354.9,can,190,curated,1,
+strongbow-gold,Gold,Strongbow,cider,5.0,354.9,can,142,curated,1,
+woodchuck-hard-cider,Hard Cider,Woodchuck,cider,5.0,354.9,can,200,curated,1,
+crispin-original,Original,Crispin,cider,5.5,354.9,can,160,curated,1,
+magners-original,Original,Magners,cider,5.0,354.9,can,99,curated,1,
+rekorderlig-wild-berry,Wild Berry,Rekorderlig,cider,6.9,354.9,can,162,curated,1,
+bold-rock-hard-cider,Hard Cider,Bold Rock,cider,5.0,354.9,can,147,curated,1,
+vermont-hard-cider,Vermont Hard Cider,,cider,4.5,354.9,can,132,curated,1,
+white-wine-2-oz-tasting-pour,White Wine — 2 oz tasting pour,,wine_white,12.5,59.1,glass,47,curated,1,
+pinot-grigio,Pinot Grigio,,wine_white,12.5,177.4,glass,141,curated,1,
+chardonnay,Chardonnay,,wine_white,13.5,177.4,glass,150,curated,1,
+sauvignon-blanc,Sauvignon Blanc,,wine_white,13.0,177.4,glass,145,curated,1,
+riesling,Riesling,,wine_white,10.0,177.4,glass,116,curated,1,
+moscato,Moscato,,wine_white,7.5,177.4,glass,92,curated,1,
+pinot-gris,Pinot Gris,,wine_white,11.5,177.4,glass,131,curated,1,
+gewurztraminer,Gewürztraminer,,wine_white,13.0,177.4,glass,145,curated,1,
+white-burgundy,White Burgundy,,wine_white,14.5,177.4,glass,160,curated,1,
+vinho-verde,Vinho Verde,,wine_white,12.0,177.4,glass,136,curated,1,
+white-bordeaux-blend,White Bordeaux Blend,,wine_white,12.0,177.4,glass,136,curated,1,
+red-wine-2-oz-tasting-pour,Red Wine — 2 oz tasting pour,,wine_red,13.5,59.1,glass,50,curated,1,
+pinot-noir,Pinot Noir,,wine_red,13.5,177.4,glass,150,curated,1,
+cabernet-sauvignon,Cabernet Sauvignon,,wine_red,14.5,177.4,glass,160,curated,1,
+merlot,Merlot,,wine_red,13.5,177.4,glass,150,curated,1,
+malbec,Malbec,,wine_red,14.0,177.4,glass,155,curated,1,
+syrah-shiraz,Syrah / Shiraz,,wine_red,14.5,177.4,glass,160,curated,1,
+zinfandel,Zinfandel,,wine_red,15.0,177.4,glass,165,curated,1,
+sangiovese,Sangiovese,,wine_red,14.0,147.9,glass,128,curated,1,
+grenache,Grenache,,wine_red,15.0,177.4,glass,165,curated,1,
+tempranillo,Tempranillo,,wine_red,14.0,177.4,glass,155,curated,1,
+petite-sirah,Petite Sirah,,wine_red,15.5,177.4,glass,170,curated,1,
+montepulciano,Montepulciano,,wine_red,14.0,177.4,glass,155,curated,1,
+cotes-du-rhone-red,Côtes du Rhône Red,,wine_red,14.5,177.4,glass,160,curated,1,
+sparkling-rose-2-oz-tasting-pour,Sparkling / Rosé — 2 oz tasting pour,,wine_sparkling,12.0,59.1,glass,45,curated,1,
+champagne,Champagne,,wine_sparkling,12.0,177.4,glass,136,curated,1,
+prosecco,Prosecco,,wine_sparkling,11.0,177.4,glass,126,curated,1,
+cava,Cava,,wine_sparkling,11.5,177.4,glass,131,curated,1,
+sparkling-rose,Sparkling Rosé,,wine_sparkling,12.0,177.4,glass,136,curated,1,
+rose,Rosé,,wine_sparkling,12.0,177.4,glass,136,curated,1,
+white-zinfandel-rose,White Zinfandel Rosé,,wine_sparkling,12.5,177.4,glass,141,curated,1,
+bellini,Bellini,,wine_sparkling,5.0,177.4,glass,67,curated,1,
+mimosa,Mimosa,,wine_sparkling,6.0,177.4,glass,77,curated,1,
+fortified-dessert-wine-1-5-oz-tasting-pour,Fortified / Dessert Wine — 1.5 oz tasting pour,,wine_fortified,18.0,44.4,glass,44,curated,1,
+port,Port,,wine_fortified,20.0,88.7,glass,103,curated,1,
+sherry,Sherry,,wine_fortified,18.0,88.7,glass,75,curated,1,
+madeira,Madeira,,wine_fortified,18.0,88.7,glass,115,curated,1,
+marsala,Marsala,,wine_fortified,18.0,88.7,glass,115,curated,1,
+vermouth,Vermouth,,wine_fortified,18.0,88.7,glass,64,curated,1,
+sauternes-dessert-wine,Sauternes Dessert Wine,,wine_fortified,10.0,88.7,glass,64,curated,1,
+moscato-d-asti,Moscato d'Asti,,wine_fortified,9.0,88.7,glass,127,curated,1,
+light-sweet-wine-flight-42-oz,Light / Sweet Wine Flight — 4×2 oz,,flight,9.0,236.6,flight,156,curated,1,
+white-wine-flight-42-oz,White Wine Flight — 4×2 oz,,flight,12.0,236.6,flight,175,curated,1,
+full-bodied-white-flight-42-oz,Full-Bodied White Flight — 4×2 oz,,flight,13.5,236.6,flight,190,curated,1,
+rose-sparkling-flight-42-oz,Rosé / Sparkling Flight — 4×2 oz,,flight,12.5,236.6,flight,179,curated,1,
+light-red-wine-flight-42-oz,Light Red Wine Flight — 4×2 oz,,flight,13.0,236.6,flight,185,curated,1,
+full-bodied-red-flight-42-oz,Full-Bodied Red Flight — 4×2 oz,,flight,14.0,236.6,flight,197,curated,1,
+fortified-dessert-wine-flight-41-5-oz,Fortified / Dessert Wine Flight — 4×1.5 oz,,flight,18.0,177.4,flight,160,curated,1,
+vodka-1-oz-tasting-pour,Vodka — 1 oz tasting pour,,spirit_vodka,40.0,29.6,shot,65,curated,1,
+vodka-standard-shot,Vodka — Standard Shot,,spirit_vodka,40.0,44.4,shot,97,curated,1,
+tito-s-handmade-vodka,Handmade Vodka,Tito's,spirit_vodka,40.0,44.4,shot,98,curated,1,
+grey-goose,Grey Goose,,spirit_vodka,40.0,44.4,shot,98,curated,1,
+absolut,Absolut,,spirit_vodka,40.0,44.4,shot,96,curated,1,
+ketel-one,Ketel One,,spirit_vodka,40.0,44.4,shot,96,curated,1,
+skyy,Skyy,,spirit_vodka,40.0,44.4,shot,118,curated,1,
+smirnoff,Smirnoff,,spirit_vodka,40.0,44.4,shot,118,curated,1,
+ciroc,Ciroc,,spirit_vodka,40.0,44.4,shot,118,curated,1,
+belvedere,Belvedere,,spirit_vodka,40.0,44.4,shot,118,curated,1,
+smirnoff-100-proof,100 Proof,Smirnoff,spirit_vodka,50.0,44.4,shot,147,curated,1,
+whiskey-bourbon-1-oz-tasting-pour,Whiskey / Bourbon — 1 oz tasting pour,,spirit_whiskey,43.0,29.6,shot,70,curated,1,
+whiskey-standard-shot,Whiskey — Standard Shot,,spirit_whiskey,40.0,44.4,shot,105,curated,1,
+jack-daniel-s-old-no-7,Old No. 7,Jack Daniel's,spirit_whiskey,40.0,44.4,shot,98,curated,1,
+maker-s-mark,Maker's Mark,,spirit_whiskey,45.0,44.4,shot,110,curated,1,
+bulleit-bourbon,Bourbon,Bulleit,spirit_whiskey,45.0,44.4,shot,110,curated,1,
+jim-beam-white,White,Jim Beam,spirit_whiskey,40.0,44.4,shot,97,curated,1,
+wild-turkey-101,101,Wild Turkey,spirit_whiskey,50.0,44.4,shot,122,curated,1,
+woodford-reserve,Woodford Reserve,,spirit_whiskey,46.0,44.4,shot,135,curated,1,
+four-roses-bourbon,Bourbon,Four Roses,spirit_whiskey,40.0,44.4,shot,98,curated,1,
+jameson-irish-whiskey,Irish Whiskey,Jameson,spirit_whiskey,40.0,44.4,shot,97,curated,1,
+bushmills-original,Original,Bushmills,spirit_whiskey,40.0,44.4,shot,99,curated,1,
+johnnie-walker-black,Black,Johnnie Walker,spirit_whiskey,40.0,44.4,shot,118,curated,1,
+glenfiddich-12yr-scotch,12yr Scotch,Glenfiddich,spirit_whiskey,40.0,44.4,shot,98,curated,1,
+chivas-regal-12yr,12yr,Chivas Regal,spirit_whiskey,40.0,44.4,shot,118,curated,1,
+knob-creek,Knob Creek,,spirit_whiskey,50.0,44.4,shot,123,curated,1,
+booker-s-bourbon,Bourbon,Booker's,spirit_whiskey,63.0,44.4,shot,154,curated,1,
+crown-royal,Crown Royal,,spirit_whiskey,40.0,44.4,shot,118,curated,1,
+seagram-s-7,7,Seagram's,spirit_whiskey,40.0,44.4,shot,167,curated,1,
+rum-1-oz-tasting-pour,Rum — 1 oz tasting pour,,spirit_rum,40.0,29.6,shot,65,curated,1,
+rum-standard-shot,Rum — Standard Shot,,spirit_rum,40.0,44.4,shot,97,curated,1,
+bacardi-superior,Superior,Bacardi,spirit_rum,40.0,44.4,shot,97,curated,1,
+captain-morgan-spiced,Spiced,Captain Morgan,spirit_rum,35.0,44.4,shot,86,curated,1,
+malibu-coconut-rum,Coconut Rum,Malibu,spirit_rum,21.0,44.4,shot,51,curated,1,
+mount-gay-eclipse,Eclipse,Mount Gay,spirit_rum,40.0,44.4,shot,118,curated,1,
+diplomatico-reserva,Reserva,Diplomatico,spirit_rum,40.0,44.4,shot,118,curated,1,
+kraken-black-spiced-rum,Black Spiced Rum,Kraken,spirit_rum,40.0,44.4,shot,99,curated,1,
+plantation-3-stars,3 Stars,Plantation,spirit_rum,40.0,44.4,shot,118,curated,1,
+bacardi-151,151,Bacardi,spirit_rum,75.5,44.4,shot,185,curated,1,
+gosling-s-black-seal-151,Black Seal 151,Gosling's,spirit_rum,63.5,44.4,shot,187,curated,1,
+tequila-mezcal-1-oz-tasting-pour,Tequila / Mezcal — 1 oz tasting pour,,spirit_tequila,40.0,29.6,shot,65,curated,1,
+tequila-standard-shot,Tequila — Standard Shot,,spirit_tequila,40.0,44.4,shot,97,curated,1,
+jose-cuervo-gold,Gold,Jose Cuervo,spirit_tequila,40.0,44.4,shot,97,curated,1,
+patron-silver,Silver,Patron,spirit_tequila,40.0,44.4,shot,118,curated,1,
+don-julio-blanco,Blanco,Don Julio,spirit_tequila,40.0,44.4,shot,118,curated,1,
+casamigos-blanco,Blanco,Casamigos,spirit_tequila,40.0,44.4,shot,118,curated,1,
+espolon-reposado,Reposado,Espolòn,spirit_tequila,40.0,44.4,shot,118,curated,1,
+1800-silver,1800 Silver,,spirit_tequila,40.0,44.4,shot,118,curated,1,
+herradura-anejo,Añejo,Herradura,spirit_tequila,40.0,44.4,shot,118,curated,1,
+mezcal-del-maguey,Mezcal — Del Maguey,,spirit_tequila,46.0,44.4,shot,113,curated,1,
+montelobos-mezcal,Mezcal,Montelobos,spirit_tequila,43.0,44.4,shot,106,curated,1,
+el-silencio-mezcal,Mezcal,El Silencio,spirit_tequila,40.0,44.4,shot,99,curated,1,
+gin-1-oz-tasting-pour,Gin — 1 oz tasting pour,,spirit_gin,42.0,29.6,shot,69,curated,1,
+gin-standard-shot,Gin — Standard Shot,,spirit_gin,40.0,44.4,shot,97,curated,1,
+tanqueray-london-dry,London Dry,Tanqueray,spirit_gin,47.0,44.4,shot,116,curated,1,
+hendrick-s,Hendrick's,,spirit_gin,41.3,44.4,shot,121,curated,1,
+bombay-sapphire,Bombay Sapphire,,spirit_gin,40.0,44.4,shot,118,curated,1,
+beefeater,Beefeater,,spirit_gin,40.0,44.4,shot,98,curated,1,
+monkey-47,Monkey 47,,spirit_gin,47.0,44.4,shot,115,curated,1,
+the-botanist,The Botanist,,spirit_gin,46.0,44.4,shot,113,curated,1,
+aviation-gin,Gin,Aviation,spirit_gin,42.0,44.4,shot,103,curated,1,
+plymouth-navy-strength,Navy Strength,Plymouth,spirit_gin,57.0,44.4,shot,168,curated,1,
+brandy-cognac-1-oz-tasting-pour,Brandy / Cognac — 1 oz tasting pour,,spirit_brandy,40.0,29.6,shot,65,curated,1,
+brandy-standard,Brandy — Standard,,spirit_brandy,40.0,44.4,shot,98,curated,1,
+e-j-brandy,Brandy,E&J,spirit_brandy,40.0,44.4,shot,99,curated,1,
+hennessy-vs-cognac,VS Cognac,Hennessy,spirit_brandy,40.0,44.4,shot,100,curated,1,
+remy-martin-vsop,VSOP,Rémy Martin,spirit_brandy,40.0,44.4,shot,118,curated,1,
+courvoisier-vs,VS,Courvoisier,spirit_brandy,40.0,44.4,shot,118,curated,1,
+armagnac-typical,Armagnac — Typical,,spirit_brandy,40.0,44.4,shot,99,curated,1,
+pisco,Pisco,,spirit_brandy,40.0,44.4,shot,99,curated,1,
+grappa,Grappa,,spirit_brandy,40.0,44.4,shot,99,curated,1,
+liqueur-1-oz-tasting-pour,Liqueur — 1 oz tasting pour,,liqueur,25.0,29.6,shot,41,curated,1,
+kahlua-coffee-liqueur,Coffee Liqueur,Kahlúa,liqueur,20.0,44.4,shot,91,curated,1,
+baileys-irish-cream,Irish Cream,Baileys,liqueur,17.0,44.4,shot,147,curated,1,
+amaretto-di-saronno,Amaretto di Saronno,,liqueur,21.0,44.4,shot,110,curated,1,
+fireball-cinnamon-whisky,Cinnamon Whisky,Fireball,liqueur,33.0,44.4,shot,108,curated,1,
+jagermeister,Jägermeister,,liqueur,35.0,44.4,shot,103,curated,1,
+malibu-coconut,Coconut,Malibu,liqueur,21.0,44.4,shot,88,curated,1,
+triple-sec,Triple Sec,,liqueur,30.0,44.4,shot,130,curated,1,
+cointreau,Cointreau,,liqueur,40.0,44.4,shot,110,curated,1,
+grand-marnier,Grand Marnier,,liqueur,40.0,44.4,shot,115,curated,1,
+chambord,Chambord,,liqueur,16.5,44.4,shot,107,curated,1,
+st-germain-elderflower,Elderflower,St-Germain,liqueur,20.0,44.4,shot,49,curated,1,
+frangelico,Frangelico,,liqueur,20.0,44.4,shot,49,curated,1,
+chartreuse-green,Green,Chartreuse,liqueur,55.0,44.4,shot,135,curated,1,
+aperol,Aperol,,liqueur,11.0,44.4,shot,27,curated,1,
+campari,Campari,,liqueur,25.0,44.4,shot,61,curated,1,
+midori-melon,Melon,Midori,liqueur,20.0,44.4,shot,83,curated,1,
+schnapps-peach,Schnapps — Peach,,liqueur,23.0,44.4,shot,56,curated,1,
+everclear-151,151,Everclear,liqueur,75.5,44.4,shot,185,curated,1,
+everclear-190-proof,190 Proof,Everclear,liqueur,95.0,44.4,shot,285,curated,1,
+absinthe,Absinthe,,liqueur,68.0,44.4,shot,133,curated,1,
+vodka-flight-41-oz,Vodka Flight — 4×1 oz,,flight,40.0,118.3,flight,220,curated,1,
+bourbon-american-whiskey-flight-41-oz,Bourbon / American Whiskey Flight — 4×1 oz,,flight,40.0,118.3,flight,220,curated,1,
+scotch-irish-whiskey-flight-41-oz,Scotch / Irish Whiskey Flight — 4×1 oz,,flight,43.0,118.3,flight,237,curated,1,
+high-proof-barrel-strength-flight-41-oz,High-Proof / Barrel Strength Flight — 4×1 oz,,flight,50.0,118.3,flight,276,curated,1,
+rum-flight-41-oz,Rum Flight — 4×1 oz,,flight,40.0,118.3,flight,220,curated,1,
+tequila-flight-blanco-repo-anejo-41-oz,Tequila Flight (Blanco/Repo/Añejo) — 4×1 oz,,flight,40.0,118.3,flight,220,curated,1,
+gin-flight-41-oz,Gin Flight — 4×1 oz,,flight,42.0,118.3,flight,231,curated,1,
+brandy-cognac-flight-41-oz,Brandy / Cognac Flight — 4×1 oz,,flight,40.0,118.3,flight,220,curated,1,
+liqueur-flight-41-oz,Liqueur Flight — 4×1 oz,,flight,25.0,118.3,flight,138,curated,1,
+old-fashioned,Old Fashioned,,cocktail_classic,35.0,88.7,cocktail,180,curated,1,
+manhattan,Manhattan,,cocktail_classic,35.0,88.7,cocktail,160,curated,1,
+negroni,Negroni,,cocktail_classic,28.0,88.7,cocktail,195,curated,1,
+martini,Martini,,cocktail_classic,28.0,88.7,cocktail,175,curated,1,
+gimlet,Gimlet,,cocktail_classic,28.0,88.7,cocktail,192,curated,1,
+sazerac,Sazerac,,cocktail_classic,25.0,103.5,cocktail,172,curated,1,
+daiquiri,Daiquiri,,cocktail_classic,20.0,118.3,cocktail,180,curated,1,
+whiskey-sour,Whiskey Sour,,cocktail_classic,18.0,118.3,cocktail,175,curated,1,
+sidecar,Sidecar,,cocktail_classic,20.0,118.3,cocktail,157,curated,1,
+between-the-sheets,Between the Sheets,,cocktail_classic,22.0,118.3,cocktail,173,curated,1,
+amaretto-sour,Amaretto Sour,,cocktail_classic,20.0,118.3,cocktail,157,curated,1,
+last-word,Last Word,,cocktail_classic,25.0,103.5,cocktail,172,curated,1,
+margarita,Margarita,,cocktail_popular,15.0,118.3,cocktail,165,curated,1,
+mojito,Mojito,,cocktail_popular,12.0,147.9,cocktail,168,curated,1,
+cosmopolitan,Cosmopolitan,,cocktail_popular,20.0,118.3,cocktail,150,curated,1,
+moscow-mule,Moscow Mule,,cocktail_popular,10.0,177.4,cocktail,185,curated,1,
+gin-tonic,Gin & Tonic,,cocktail_popular,10.0,236.6,cocktail,132,curated,1,
+vodka-soda,Vodka Soda,,cocktail_popular,10.0,236.6,cocktail,97,curated,1,
+rum-and-coke,Rum and Coke,,cocktail_popular,10.0,236.6,cocktail,185,curated,1,
+screwdriver,Screwdriver,,cocktail_popular,10.0,236.6,cocktail,170,curated,1,
+espresso-martini,Espresso Martini,,cocktail_popular,15.0,147.9,cocktail,175,curated,1,
+white-russian,White Russian,,cocktail_popular,20.0,118.3,cocktail,245,curated,1,
+black-russian,Black Russian,,cocktail_popular,25.0,88.7,cocktail,147,curated,1,
+bloody-mary,Bloody Mary,,cocktail_popular,12.0,177.4,cocktail,120,curated,1,
+tom-collins,Tom Collins,,cocktail_popular,10.0,236.6,cocktail,157,curated,1,
+dark-stormy,Dark & Stormy,,cocktail_popular,10.0,236.6,cocktail,170,curated,1,
+paloma,Paloma,,cocktail_popular,10.0,207.0,cocktail,137,curated,1,
+aperol-spritz,Spritz,Aperol,cocktail_popular,8.0,177.4,cocktail,125,curated,1,
+sex-on-the-beach,Sex on the Beach,,cocktail_popular,8.0,147.9,cocktail,78,curated,1,
+pina-colada,Piña Colada,,cocktail_popular,10.0,177.4,cocktail,245,curated,1,
+tequila-sunrise,Tequila Sunrise,,cocktail_popular,12.0,147.9,cocktail,99,curated,1,
+blue-lagoon,Blue Lagoon,,cocktail_popular,15.0,147.9,cocktail,147,curated,1,
+harvey-wallbanger,Harvey Wallbanger,,cocktail_popular,10.0,177.4,cocktail,118,curated,1,
+rum-punch,Rum Punch,,cocktail_popular,10.0,236.6,cocktail,132,curated,1,
+sangria,Sangria,,cocktail_popular,12.0,177.4,cocktail,153,curated,1,
+long-island-iced-tea,Long Island Iced Tea,,cocktail_popular,22.0,236.6,cocktail,280,curated,1,
+zombie,Zombie,,cocktail_popular,18.0,207.0,cocktail,309,curated,1,
+jungle-juice-typical,Jungle Juice — Typical,,cocktail_popular,15.0,147.9,cocktail,184,curated,1,
+kir-royale,Kir Royale,,cocktail_wine,8.0,147.9,cocktail,85,curated,1,
+french-75,French 75,,cocktail_wine,10.0,147.9,cocktail,98,curated,1,
+sangria-cocktail_wine,Sangria,,cocktail_wine,12.0,147.9,cocktail,127,curated,1,
+spritz,Spritz,,cocktail_wine,8.0,236.6,cocktail,136,curated,1,
+malt-beverage-4-oz-flight-pour,Malt Beverage — 4 oz flight pour,,rtd,5.0,118.3,flight,45,curated,1,
+four-loko,Four Loko,,rtd,12.0,695.0,can,783,curated,1,
+joose,Joose,,rtd,8.0,473.2,can,356,curated,1,
+bacardi-mixers,Mixers,Bacardi,rtd,5.9,354.9,can,139,curated,1,
+jack-daniel-s-country-cocktail,Country Cocktail,Jack Daniel's,rtd,5.0,354.9,can,118,curated,1,
+seagram-s-escapes,Escapes,Seagram's,rtd,3.2,354.9,can,68,curated,1,
+sparkling-ice-vodka,+Vodka,Sparkling Ice,rtd,6.0,354.9,can,123,curated,1,
+wild-vines,Wild Vines,,rtd,5.5,354.9,can,129,curated,1,
+breezer,Breezer,,rtd,5.0,354.9,can,167,curated,1,
+import-beer-4-oz-flight-pour,Import Beer — 4 oz flight pour,,beer_import,5.0,118.3,flight,45,curated,1,
+amstel-light,Light,Amstel,beer_import,5.0,331.2,can,110,curated,1,
+peroni-nastro-azzurro,Nastro Azzurro,Peroni,beer_import,4.9,331.2,can,108,curated,1,
+birra-moretti,Birra Moretti,,beer_import,5.0,331.2,can,110,curated,1,
+san-miguel,San Miguel,,beer_import,5.0,331.2,can,110,curated,1,
+asahi-super-dry,Super Dry,Asahi,beer_import,4.9,331.2,can,108,curated,1,
+sapporo,Sapporo,,beer_import,5.0,331.2,can,110,curated,1,
+kirin-ichiban,Ichiban,Kirin,beer_import,4.6,331.2,can,109,curated,1,
+tsingtao,Tsingtao,,beer_import,4.8,331.2,can,105,curated,1,
+tiger-beer,Beer,Tiger,beer_import,5.0,331.2,can,110,curated,1,
+chang-beer,Beer,Chang,beer_import,5.0,331.2,can,110,curated,1,
+singha,Singha,,beer_import,5.0,331.2,can,110,curated,1,
+victoria-bitter,Victoria Bitter,,beer_import,4.6,331.2,can,114,curated,1,
+carlton-draught,Draught,Carlton,beer_import,4.9,331.2,can,108,curated,1,
+tooheys-new,New,Tooheys,beer_import,5.0,331.2,can,110,curated,1,
+foster-s-lager,Lager,Foster's,beer_import,5.0,331.2,can,124,curated,1,
+kingfisher,Kingfisher,,beer_import,4.9,331.2,can,108,curated,1,
+tusker,Tusker,,beer_import,5.0,331.2,can,110,curated,1,
+leffe-blonde,Blonde,Leffe,beer_import,6.6,331.2,can,163,curated,1,
+chimay-blue,Blue,Chimay,beer_import,9.0,331.2,can,216,curated,1,
+westmalle-tripel,Tripel,Westmalle,beer_import,9.5,331.2,can,217,curated,1,
+erdinger-weissbier,Weissbier,Erdinger,beer_import,5.3,331.2,can,139,curated,1,
+beck-s,Beck's,,beer_import,5.2,331.2,can,114,curated,1,
+warsteiner,Warsteiner,,beer_import,4.9,331.2,can,108,curated,1,
+bitburger,Bitburger,,beer_import,5.0,331.2,can,110,curated,1,
+spaten-lager,Lager,Spaten,beer_import,5.0,331.2,can,124,curated,1,
+paulaner-salvator,Salvator,Paulaner,beer_import,7.9,331.2,can,196,curated,1,
+kronenbourg-1664,1664,Kronenbourg,beer_import,5.1,331.2,can,112,curated,1,
+grimbergen-blonde,Blonde,Grimbergen,beer_import,6.7,331.2,can,174,curated,1,
+st-feuillien-tripel,Tripel,St. Feuillien,beer_import,8.5,331.2,can,194,curated,1,
+brahma,Brahma,,beer_import,5.0,331.2,can,110,curated,1,
+skol,Skol,,beer_import,5.0,331.2,can,110,curated,1,
+efes-pilsen,Pilsen,Efes,beer_import,4.5,331.2,can,99,curated,1,
+castle-lager,Castle Lager,,beer_import,5.0,331.2,can,124,curated,1,
+windhoek-lager,Lager,Windhoek,beer_import,5.0,331.2,can,124,curated,1,
+heineken-0-0,0.0,Heineken,beer_import,4.6,331.2,can,142,curated,1,
+craft-seasonal-4-oz-flight-pour,Craft / Seasonal — 4 oz flight pour,,beer_craft,6.0,118.3,flight,53,curated,1,
+dogfish-head-festina-peche,Festina Peche,Dogfish Head,beer_craft,4.5,354.9,can,143,curated,1,
+new-belgium-fat-tire,Fat Tire,New Belgium,beer_craft,5.2,354.9,can,157,curated,1,
+sam-adams-summer-ale,Summer Ale,Sam Adams,beer_craft,5.1,354.9,can,155,curated,1,
+sam-adams-octoberfest,Octoberfest,Sam Adams,beer_craft,5.3,354.9,can,159,curated,1,
+sam-adams-winter-lager,Winter Lager,Sam Adams,beer_craft,5.6,354.9,can,165,curated,1,
+shiner-bock,Bock,Shiner,beer_craft,4.4,354.9,can,131,curated,1,
+yuengling-traditional-lager,Traditional Lager,Yuengling,beer_craft,4.4,354.9,can,131,curated,1,
+brooklyn-lager,Lager,Brooklyn,beer_craft,5.2,354.9,can,157,curated,1,
+allagash-tripel,Tripel,Allagash,beer_craft,9.0,354.9,can,231,curated,1,
+russian-river-pliny-the-elder,Pliny the Elder,Russian River,beer_craft,8.0,354.9,can,212,curated,1,
+odell-brewing-easy-street-wheat,Easy Street Wheat,Odell Brewing,beer_craft,5.0,354.9,can,127,curated,1,
+oskar-blues-dale-s-pale-ale,Dale's Pale Ale,Oskar Blues,beer_craft,6.5,354.9,can,178,curated,1,
+founders-cbs-stout,CBS Stout,Founders,beer_craft,10.6,354.9,can,263,curated,1,
+great-lakes-burning-river-pale-ale,Burning River Pale Ale,Great Lakes,beer_craft,6.0,354.9,can,159,curated,1,
+goose-island-matilda,Matilda,Goose Island,beer_craft,7.0,354.9,can,192,curated,1,
+anchor-steam-beer,Steam Beer,Anchor,beer_craft,4.9,354.9,can,151,curated,1,
+dogfish-head-palo-santo-marron,Palo Santo Marron,Dogfish Head,beer_craft,12.0,354.9,can,290,curated,1,
+weyerbacher-merry-monks,Merry Monks,Weyerbacher,beer_craft,9.3,354.9,can,237,curated,1,
+troegs-sunshine-pils,Sunshine Pils,Tröegs,beer_craft,5.0,354.9,can,118,curated,1,
+maine-brewing-lunch-ipa,Lunch IPA,Maine Brewing,beer_craft,7.0,354.9,can,192,curated,1,
+cigar-city-jai-alai-ipa,Jai Alai IPA,Cigar City,beer_craft,7.5,354.9,can,202,curated,1,
+allagash-four,Four,Allagash,beer_craft,7.2,354.9,can,196,curated,1,
+buttery-nipple,Buttery Nipple,,shooter,17.0,44.4,shot,46,curated,1,
+slippery-nipple,Slippery Nipple,,shooter,22.0,44.4,shot,59,curated,1,
+b-52,B-52,,shooter,26.0,44.4,shot,70,curated,1,
+fireball-shot,Shot,Fireball,shooter,33.0,44.4,shot,113,curated,1,
+blow-job-shot,Blow Job Shot,,shooter,22.0,44.4,shot,59,curated,1,
+mudslide-shooter,Mudslide Shooter,,shooter,20.0,44.4,shot,98,curated,1,
+kamikaze,Kamikaze,,shooter,30.0,59.1,shot,137,curated,1,
+lemon-drop-shot,Lemon Drop Shot,,shooter,28.0,59.1,shot,101,curated,1,
+jager-bomb-spirit-portion,Jäger Bomb — spirit portion,,shooter,35.0,44.4,shot,103,curated,1,
+tequila-sunrise-shooter,Tequila Sunrise Shooter,,shooter,40.0,44.4,shot,99,curated,1,
+mind-eraser,Mind Eraser,,shooter,35.0,44.4,shot,103,curated,1,
+green-tea-shot,Green Tea Shot,,shooter,30.0,44.4,shot,81,curated,1,
+baby-guinness,Baby Guinness,,shooter,25.0,59.1,shot,98,curated,1,
+three-wise-men,Three-Wise Men,,shooter,40.0,44.4,shot,118,curated,1,
+washington-apple-shot,Washington Apple Shot,,shooter,33.0,44.4,shot,89,curated,1,
+woo-woo-shot,Woo Woo Shot,,shooter,25.0,44.4,shot,67,curated,1,
+sex-on-the-beach-shooter,Sex on the Beach Shooter,,shooter,30.0,59.1,shot,108,curated,1,
+tropical-shooter,Tropical Shooter,,shooter,20.0,44.4,shot,54,curated,1,
+four-horsemen-shot,Four Horsemen Shot,,shooter,35.0,44.4,shot,94,curated,1,
+pickleback,Pickleback,,shooter,40.0,44.4,shot,99,curated,1,
+redheaded-slut,Redheaded Slut,,shooter,25.0,59.1,shot,98,curated,1,
+surfer-on-acid,Surfer on Acid,,shooter,30.0,59.1,shot,118,curated,1,
+melon-ball-shot,Melon Ball Shot,,shooter,22.0,59.1,shot,79,curated,1,
+flaming-dr-pepper-spirit,Flaming Dr Pepper — spirit,,shooter,40.0,44.4,shot,118,curated,1,
+jagerbomb-jager-portion,Jagerbomb — Jäger portion,,shooter,38.0,44.4,shot,103,curated,1,
+mai-tai,Mai Tai,,cocktail_tiki,14.0,177.4,cocktail,165,curated,1,
+singapore-sling,Singapore Sling,,cocktail_tiki,12.0,207.0,cocktail,165,curated,1,
+planter-s-punch,Planter's Punch,,cocktail_tiki,10.0,236.6,cocktail,196,curated,1,
+blue-hawaiian,Blue Hawaiian,,cocktail_tiki,12.0,177.4,cocktail,141,curated,1,
+rum-runner,Rum Runner,,cocktail_tiki,10.0,236.6,cocktail,132,curated,1,
+shark-attack,Shark Attack,,cocktail_tiki,10.0,236.6,cocktail,157,curated,1,
+jungle-bird,Jungle Bird,,cocktail_tiki,12.0,207.0,cocktail,165,curated,1,
+painkiller,Painkiller,,cocktail_tiki,14.0,177.4,cocktail,165,curated,1,
+hurricane,Hurricane,,cocktail_tiki,12.0,236.6,cocktail,188,curated,1,
+scorpion-bowl-per-person,Scorpion Bowl — per person,,cocktail_tiki,10.0,207.0,cocktail,137,curated,1,
+bahama-mama,Bahama Mama,,cocktail_tiki,10.0,236.6,cocktail,157,curated,1,
+lava-flow,Lava Flow,,cocktail_tiki,8.0,236.6,cocktail,125,curated,1,
+missionary-s-downfall,Missionary's Downfall,,cocktail_tiki,12.0,177.4,cocktail,141,curated,1,
+three-dots-and-a-dash,Three Dots and a Dash,,cocktail_tiki,14.0,147.9,cocktail,137,curated,1,
+irish-coffee,Irish Coffee,,cocktail_hot,12.0,236.6,cocktail,251,curated,1,
+hot-toddy,Hot Toddy,,cocktail_hot,15.0,236.6,cocktail,314,curated,1,
+mulled-wine,Mulled Wine,,cocktail_hot,12.0,236.6,cocktail,176,curated,1,
+tom-and-jerry,Tom and Jerry,,cocktail_hot,15.0,236.6,cocktail,235,curated,1,
+hot-buttered-rum,Hot Buttered Rum,,cocktail_hot,10.0,236.6,cocktail,132,curated,1,
+spiked-hot-chocolate,Spiked Hot Chocolate,,cocktail_hot,12.0,236.6,cocktail,188,curated,1,
+gluhwein,Glühwein,,cocktail_hot,12.0,236.6,cocktail,251,curated,1,
+spiked-apple-cider,Spiked Apple Cider,,cocktail_hot,15.0,236.6,cocktail,294,curated,1,
+wassail,Wassail,,cocktail_hot,12.0,236.6,cocktail,251,curated,1,
+cafe-correcto,Café Correcto,,cocktail_hot,10.0,236.6,cocktail,157,curated,1,
+bourbon-eggnog,Bourbon Eggnog,,cocktail_hot,15.0,236.6,cocktail,198,curated,1,
+limoncello-spritz,Limoncello Spritz,,cocktail_popular,10.0,177.4,cocktail,127,curated,1,
+clover-club,Clover Club,,cocktail_popular,12.0,147.9,cocktail,118,curated,1,
+paper-plane,Paper Plane,,cocktail_popular,20.0,118.3,cocktail,157,curated,1,
+naked-and-famous,Naked and Famous,,cocktail_popular,18.0,147.9,cocktail,176,curated,1,
+porn-star-martini,Porn Star Martini,,cocktail_popular,15.0,147.9,cocktail,175,curated,1,
+penicillin-cocktail,Penicillin Cocktail,,cocktail_popular,18.0,118.3,cocktail,141,curated,1,
+trinidad-sour,Trinidad Sour,,cocktail_popular,25.0,118.3,cocktail,196,curated,1,
+hugo-spritz,Hugo Spritz,,cocktail_popular,8.0,177.4,cocktail,100,curated,1,
+jungle-bird-cocktail_popular,Jungle Bird,,cocktail_popular,15.0,147.9,cocktail,147,curated,1,
+oaxacan-old-fashioned,Oaxacan Old Fashioned,,cocktail_popular,18.0,118.3,cocktail,180,curated,1,
+paloma-spritz,Paloma Spritz,,cocktail_popular,10.0,236.6,cocktail,170,curated,1,
+amaretto-stone-sour,Amaretto Stone Sour,,cocktail_popular,12.0,147.9,cocktail,118,curated,1,
+naked-city,Naked City,,cocktail_popular,20.0,118.3,cocktail,157,curated,1,
+watermelon-margarita,Watermelon Margarita,,cocktail_popular,10.0,207.0,cocktail,165,curated,1,
+ranch-water,Ranch Water,,cocktail_popular,12.0,177.4,cocktail,141,curated,1,
+spicy-margarita,Spicy Margarita,,cocktail_popular,10.0,177.4,cocktail,165,curated,1,
+tommy-s-margarita,Tommy's Margarita,,cocktail_popular,18.0,118.3,cocktail,165,curated,1,
+passion-fruit-martini,Passion Fruit Martini,,cocktail_popular,12.0,147.9,cocktail,175,curated,1,
+gin-basil-smash,Gin Basil Smash,,cocktail_popular,10.0,236.6,cocktail,132,curated,1,
+red-sangria,Red Sangria,,cocktail_wine,12.0,177.4,cocktail,153,curated,1,
+white-sangria,White Sangria,,cocktail_wine,11.0,177.4,cocktail,140,curated,1,
+wine-spritzer,Wine Spritzer,,cocktail_wine,8.0,236.6,cocktail,117,curated,1,
+kir,Kir,,cocktail_wine,6.0,147.9,cocktail,64,curated,1,
+frose,Frosé,,cocktail_wine,6.0,236.6,cocktail,105,curated,1,
+tinto-de-verano,Tinto de Verano,,cocktail_wine,10.0,236.6,cocktail,157,curated,1,
+wine-punch-per-serving,Wine Punch — per serving,,cocktail_wine,8.0,236.6,cocktail,117,curated,1,
+claret-cup,Claret Cup,,cocktail_wine,12.0,236.6,cocktail,188,curated,1,
+cider-cup,Cider Cup,,cocktail_wine,7.0,236.6,cocktail,137,curated,1,
+frozen-margarita,Frozen Margarita,,cocktail_frozen,10.0,354.9,cocktail,165,curated,1,
+frozen-pina-colada,Frozen Piña Colada,,cocktail_frozen,10.0,354.9,cocktail,245,curated,1,
+frozen-daiquiri,Frozen Daiquiri,,cocktail_frozen,8.0,354.9,cocktail,180,curated,1,
+frozen-mudslide,Frozen Mudslide,,cocktail_frozen,10.0,354.9,cocktail,392,curated,1,
+frozen-strawberry-daiquiri,Frozen Strawberry Daiquiri,,cocktail_frozen,8.0,354.9,cocktail,180,curated,1,
+frozen-lemonade-with-vodka,Frozen Lemonade with Vodka,,cocktail_frozen,8.0,354.9,cocktail,158,curated,1,
+frosty-rum-runner,Frosty Rum Runner,,cocktail_frozen,10.0,354.9,cocktail,198,curated,1,
+frozen-sangria-slushie,Frozen Sangria Slushie,,cocktail_frozen,8.0,473.2,cocktail,418,curated,1,
+alcoholic-slushie-typical,Alcoholic Slushie — typical,,cocktail_frozen,10.0,473.2,cocktail,314,curated,1,
+hard-lemonade-slushie,Hard Lemonade Slushie,,cocktail_frozen,5.0,473.2,cocktail,209,curated,1,
+stadium-beer-small,Stadium Beer — Small,,venue_pour,5.0,354.9,draft,118,curated,1,
+stadium-beer-regular-pint,Stadium Beer — Regular Pint,,venue_pour,5.0,473.2,draft,157,curated,1,
+stadium-beer-large,Stadium Beer — Large,,venue_pour,5.0,709.8,draft,235,curated,1,
+stadium-beer-xl,Stadium Beer — XL,,venue_pour,5.0,946.4,pitcher,314,curated,1,
+restaurant-wine-pour,Restaurant Wine Pour,,venue_pour,12.0,147.9,draft,110,curated,1,
+large-restaurant-wine,Large Restaurant Wine,,venue_pour,12.0,236.6,draft,176,curated,1,
+theme-park-festival-beer,Theme Park / Festival Beer,,venue_pour,5.0,354.9,draft,118,curated,1,
+festival-cocktail-cups,Festival Cocktail Cups,,venue_pour,15.0,236.6,draft,235,curated,1,
+keg-solo-cup-1-cup,Keg Solo Cup — 1 cup,,venue_pour,5.0,1774.4,pitcher,588,curated,1,
+non-alcoholic-beer,Non-Alcoholic Beer,,low_abv,0.5,354.9,can,40,curated,1,
+heineken-0-0-low_abv,0.0,Heineken,low_abv,0.0,354.9,can,142,curated,1,
+athletic-brewing-run-wild-ipa,Run Wild IPA,Athletic Brewing,low_abv,0.5,354.9,can,12,curated,1,
+guinness-nitro-cold-brew,Nitro Cold Brew,Guinness,low_abv,2.5,354.9,can,59,curated,1,
+3-2-beer-utah-colorado,3.2% Beer — Utah/Colorado,,low_abv,3.2,354.9,can,75,curated,1,
+session-ipa-low-abv,Session IPA — Low ABV,,low_abv,3.0,354.9,can,74,curated,1,
+non-alcoholic-wine,Non-Alcoholic Wine,,low_abv,0.5,147.9,can,5,curated,1,
+hard-kombucha,Hard Kombucha,,low_abv,4.5,354.9,can,93,curated,1,
+hard-ginger-beer,Hard Ginger Beer,,low_abv,4.0,354.9,can,79,curated,1,
+hard-iced-tea-low-cal,Hard Iced Tea — Low Cal,,low_abv,5.0,354.9,can,118,curated,1,
+sake-diluted,Sake — Diluted,,low_abv,15.0,177.4,can,180,curated,1,
+sake-standard,Sake — Standard,,low_abv,15.0,177.4,can,169,curated,1,
+shandy-radler,Shandy / Radler,,low_abv,2.5,354.9,can,94,curated,1,
+michelada,Michelada,,low_abv,3.0,354.9,can,82,curated,1,
+vodka-tonic,Vodka Tonic,,well_drink,8.0,221.8,cocktail,159,curated,1,
+vodka-cranberry,Vodka Cranberry,,well_drink,8.0,221.8,cocktail,195,curated,1,
+vodka-orange-screwdriver,Vodka Orange (Screwdriver),,well_drink,8.0,221.8,cocktail,180,curated,1,
+vodka-pineapple,Vodka Pineapple,,well_drink,8.0,221.8,cocktail,195,curated,1,
+vodka-lemonade,Vodka Lemonade,,well_drink,8.0,221.8,cocktail,171,curated,1,
+vodka-sprite,Vodka Sprite,,well_drink,8.0,221.8,cocktail,171,curated,1,
+vodka-red-bull,Vodka Red Bull,,well_drink,6.3,280.9,cocktail,206,curated,1,
+vodka-grapefruit-greyhound,Vodka Grapefruit (Greyhound),,well_drink,8.0,221.8,cocktail,168,curated,1,
+vodka-iced-tea,Vodka Iced Tea,,well_drink,8.0,221.8,cocktail,162,curated,1,
+vodka-diet-coke,Vodka Diet Coke,,well_drink,8.0,221.8,cocktail,96,curated,1,
+vodka-water,Vodka Water,,well_drink,8.0,221.8,cocktail,96,curated,1,
+gin-soda,Gin & Soda,,well_drink,8.0,221.8,cocktail,96,curated,1,
+gin-juice,Gin & Juice,,well_drink,8.0,221.8,cocktail,180,curated,1,
+gin-rickey,Gin Rickey,,well_drink,8.6,207.0,cocktail,100,curated,1,
+rum-coke,Rum & Coke,,well_drink,8.0,221.8,cocktail,171,curated,1,
+rum-diet-coke,Rum & Diet Coke,,well_drink,8.0,221.8,cocktail,96,curated,1,
+captain-coke,Captain & Coke,,well_drink,7.0,221.8,cocktail,168,curated,1,
+malibu-pineapple,Malibu Pineapple,,well_drink,4.2,221.8,cocktail,216,curated,1,
+malibu-coke,Malibu & Coke,,well_drink,4.2,221.8,cocktail,192,curated,1,
+dark-ginger,Dark & Ginger,,well_drink,8.0,221.8,cocktail,180,curated,1,
+whiskey-coke,Whiskey Coke,,well_drink,8.0,221.8,cocktail,171,curated,1,
+jack-coke,Jack & Coke,,well_drink,8.0,221.8,cocktail,171,curated,1,
+whiskey-ginger,Whiskey Ginger,,well_drink,8.0,221.8,cocktail,159,curated,1,
+whiskey-soda,Whiskey Soda,,well_drink,8.0,221.8,cocktail,96,curated,1,
+whiskey-sour-well,Whiskey Sour (well),,well_drink,13.3,133.1,cocktail,141,curated,1,
+jameson-ginger,Jameson & Ginger,,well_drink,8.0,221.8,cocktail,159,curated,1,
+seven-seven,Seven & Seven,,well_drink,8.0,221.8,cocktail,171,curated,1,
+scotch-soda,Scotch & Soda,,well_drink,8.0,221.8,cocktail,96,curated,1,
+scotch-water,Scotch & Water,,well_drink,13.3,133.1,cocktail,96,curated,1,
+bourbon-branch,Bourbon & Branch,,well_drink,19.3,103.5,cocktail,108,curated,1,
+tequila-soda,Tequila Soda,,well_drink,8.0,221.8,cocktail,96,curated,1,
+tequila-pineapple,Tequila Pineapple,,well_drink,8.0,221.8,cocktail,195,curated,1,
+tequila-grapefruit,Tequila & Grapefruit,,well_drink,8.0,221.8,cocktail,168,curated,1,
+brandy-ginger,Brandy & Ginger,,well_drink,8.0,221.8,cocktail,159,curated,1,
+amaretto-coke,Amaretto & Coke,,well_drink,4.2,221.8,cocktail,240,curated,1,
+kahlua-milk,Kahlúa & Milk,,well_drink,4.6,192.2,cocktail,226,curated,1,
+jager-red-bull-tall,Jäger & Red Bull (tall),,well_drink,5.5,280.9,cocktail,264,curated,1,
+fireball-cider,Fireball & Cider,,well_drink,6.6,221.8,cocktail,246,curated,1,
+soju-soda,Soju Soda,,well_drink,6.4,236.6,cocktail,102,curated,1,
+vodka-soda-double,Vodka Soda — double,,well_drink,10.0,236.6,cocktail,128,curated,1,
+gin-tonic-double,Gin & Tonic — double,,well_drink,10.0,236.6,cocktail,191,curated,1,
+rum-coke-double,Rum & Coke — double,,well_drink,10.0,236.6,cocktail,203,curated,1,
+whiskey-coke-double,Whiskey Coke — double,,well_drink,10.0,236.6,cocktail,203,curated,1,
+vodka-cranberry-double,Vodka Cranberry — double,,well_drink,10.0,236.6,cocktail,227,curated,1,
+well-drink-heavy-pour,Well drink — heavy pour,,well_drink,13.3,221.8,cocktail,160,curated,1,
+well-drink-light-pour,Well drink — light pour,,well_drink,5.7,207.0,cocktail,64,curated,1,
+cape-codder,Cape Codder,,cocktail_popular,8.0,221.8,cocktail,195,curated,1,
+sea-breeze,Sea Breeze,,cocktail_popular,8.0,221.8,cocktail,182,curated,1,
+bay-breeze,Bay Breeze,,cocktail_popular,8.0,221.8,cocktail,195,curated,1,
+madras,Madras,,cocktail_popular,8.0,221.8,cocktail,190,curated,1,
+salty-dog,Salty Dog,,cocktail_popular,8.0,221.8,cocktail,168,curated,1,
+woo-woo,Woo Woo,,cocktail_popular,8.6,162.7,cocktail,166,curated,1,
+fuzzy-navel,Fuzzy Navel,,cocktail_popular,3.0,221.8,cocktail,192,curated,1,
+alabama-slammer,Alabama Slammer,,cocktail_popular,6.9,162.7,cocktail,180,curated,1,
+shirley-temple-spiked,Shirley Temple (spiked),,cocktail_popular,7.5,236.6,cocktail,203,curated,1,
+john-collins,John Collins,,cocktail_classic,13.8,192.2,cocktail,184,curated,1,
+aviation,Aviation,,cocktail_classic,25.2,103.5,cocktail,197,curated,1,
+bees-knees,Bee’s Knees,,cocktail_classic,22.9,103.5,cocktail,198,curated,1,
+vesper,Vesper,,cocktail_classic,37.6,133.1,cocktail,272,curated,1,
+dirty-martini,Dirty Martini,,cocktail_classic,31.1,103.5,cocktail,176,curated,1,
+gibson,Gibson,,cocktail_classic,36.3,88.7,cocktail,176,curated,1,
+rob-roy,Rob Roy,,cocktail_classic,31.0,91.7,cocktail,173,curated,1,
+boulevardier,Boulevardier,,cocktail_classic,31.0,103.5,cocktail,218,curated,1,
+vieux-carre,Vieux Carré,,cocktail_classic,34.2,96.1,cocktail,207,curated,1,
+corpse-reviver-2,Corpse Reviver #2,,cocktail_classic,24.5,88.7,cocktail,152,curated,1,
+southside,Southside,,cocktail_classic,22.9,103.5,cocktail,183,curated,1,
+bramble,Bramble,,cocktail_classic,22.1,118.3,cocktail,215,curated,1,
+rusty-nail,Rusty Nail,,cocktail_classic,40.0,66.5,cocktail,175,curated,1,
+godfather,Godfather,,cocktail_classic,33.7,66.5,cocktail,178,curated,1,
+stinger,Stinger,,cocktail_classic,35.6,81.3,cocktail,207,curated,1,
+brandy-alexander,Brandy Alexander,,cocktail_classic,21.3,88.7,cocktail,264,curated,1,
+grasshopper,Grasshopper,,cocktail_classic,16.0,88.7,cocktail,305,curated,1,
+mint-julep,Mint Julep,,cocktail_classic,37.5,88.7,cocktail,212,curated,1,
+whiskey-smash,Whiskey Smash,,cocktail_classic,25.7,103.5,cocktail,198,curated,1,
+gold-rush,Gold Rush,,cocktail_classic,25.7,103.5,cocktail,214,curated,1,
+penicillin,Penicillin,,cocktail_classic,22.9,103.5,cocktail,198,curated,1,
+naked-famous,Naked & Famous,,cocktail_classic,27.3,88.7,cocktail,174,curated,1,
+jack-rose,Jack Rose,,cocktail_classic,24.6,96.1,cocktail,165,curated,1,
+pisco-sour,Pisco Sour,,cocktail_classic,18.8,125.7,cocktail,192,curated,1,
+caipirinha,Caipirinha,,cocktail_classic,22.9,103.5,cocktail,168,curated,1,
+americano,Americano,,cocktail_classic,6.8,177.4,cocktail,110,curated,1,
+garibaldi,Garibaldi,,cocktail_classic,6.8,162.7,cocktail,154,curated,1,
+ramos-gin-fizz,Ramos Gin Fizz,,cocktail_classic,11.4,207.0,cocktail,276,curated,1,
+dark-n-stormy,Dark ’n Stormy,,cocktail_popular,10.7,221.8,cocktail,202,curated,1,
+kentucky-mule,Kentucky Mule,,cocktail_popular,12.0,221.8,cocktail,218,curated,1,
+mexican-mule,Mexican Mule,,cocktail_popular,10.7,221.8,cocktail,202,curated,1,
+irish-mule,Irish Mule,,cocktail_popular,10.7,221.8,cocktail,202,curated,1,
+cuba-libre,Cuba Libre,,cocktail_popular,10.7,221.8,cocktail,194,curated,1,
+batanga,Batanga,,cocktail_popular,10.7,221.8,cocktail,194,curated,1,
+midori-sour,Midori Sour,,cocktail_popular,8.0,147.9,cocktail,245,curated,1,
+lemon-drop-martini,Lemon Drop Martini,,cocktail_popular,25.3,110.9,cocktail,217,curated,1,
+appletini,Appletini,,cocktail_popular,29.2,96.1,cocktail,208,curated,1,
+french-martini,French Martini,,cocktail_popular,22.1,118.3,cocktail,200,curated,1,
+pornstar-martini,Pornstar Martini,,cocktail_popular,18.5,162.7,cocktail,210,curated,1,
+chocolate-martini,Chocolate Martini,,cocktail_popular,26.0,118.3,cocktail,328,curated,1,
+bicicletta,Bicicletta,,cocktail_popular,12.5,177.4,cocktail,170,curated,1,
+chelada,Chelada,,cocktail_popular,4.8,369.7,cocktail,148,curated,1,
+bloody-maria,Bloody Maria,,cocktail_popular,9.2,192.2,cocktail,121,curated,1,
+red-snapper,Red Snapper,,cocktail_popular,9.2,192.2,cocktail,121,curated,1,
+snakebite,Snakebite,,cocktail_popular,5.0,473.2,cocktail,216,curated,1,
+black-velvet,Black Velvet,,cocktail_popular,8.1,295.7,cocktail,160,curated,1,
+adios-motherf-er,Adios Motherf***er,,cocktail_popular,12.0,221.8,cocktail,243,curated,1,
+blue-motorcycle,Blue Motorcycle,,cocktail_popular,13.8,192.2,cocktail,230,curated,1,
+tokyo-tea,Tokyo Tea,,cocktail_popular,13.8,192.2,cocktail,233,curated,1,
+zombie-punch,Zombie Punch,,cocktail_popular,20.5,170.0,cocktail,259,curated,1,
+airmail,Airmail,,cocktail_popular,18.7,133.1,cocktail,181,curated,1,
+old-cuban,Old Cuban,,cocktail_popular,17.7,140.5,cocktail,172,curated,1,
+vegas-bomb,Vegas Bomb,,shooter,11.0,73.9,shot,89,curated,1,
+irish-car-bomb,Irish Car Bomb,,shooter,9.1,221.8,shot,224,curated,1,
+liquid-marijuana,Liquid Marijuana,,shooter,16.2,73.9,shot,138,curated,1,
+blue-kamikaze,Blue Kamikaze,,shooter,25.0,59.1,shot,116,curated,1,
+melon-ball,Melon Ball,,shooter,20.0,59.1,shot,140,curated,1,
+purple-hooter,Purple Hooter,,shooter,24.1,59.1,shot,116,curated,1,
+duck-fart,Duck Fart,,shooter,25.7,44.4,shot,142,curated,1,
+prairie-fire,Prairie Fire,,shooter,40.0,44.4,shot,96,curated,1,
+tequila-slammer,Tequila Slammer,,shooter,20.0,59.1,shot,76,curated,1,
+white-gummy-bear,White Gummy Bear,,shooter,16.7,66.5,shot,98,curated,1,
+cherry-bomb,Cherry Bomb,,shooter,17.8,66.5,shot,94,curated,1,
+chocolate-cake,Chocolate Cake,,shooter,36.0,44.4,shot,112,curated,1,
+scooby-snack,Scooby Snack,,shooter,10.2,59.1,shot,147,curated,1,
+rumchata-shot,RumChata Shot,,shooter,13.7,44.4,shot,150,curated,1,
+mexican-candy,Mexican Candy,,shooter,26.7,44.4,shot,72,curated,1,
+jungle-juice-12-oz-cup,Jungle Juice — 12 oz cup,,punch,19.2,354.9,pitcher,496,curated,1,
+trash-can-punch-12-oz-cup,Trash Can Punch — 12 oz cup,,punch,10.0,354.9,pitcher,310,curated,1,
+wedding-punch-8-oz-cup,Wedding Punch — 8 oz cup,,punch,8.8,236.6,pitcher,172,curated,1,
+sangria-8-oz-pour,Sangria — 8 oz pour,,punch,10.9,236.6,pitcher,192,curated,1,
+margarita-pitcher-8-oz,Margarita pitcher — 8 oz,,punch,13.8,236.6,pitcher,306,curated,1,
+mimosa-carafe-8-oz-pour,Mimosa carafe — 8 oz pour,,punch,6.0,236.6,pitcher,132,curated,1,
+rum-punch-10-oz-cup,Rum Punch — 10 oz cup,,punch,8.0,295.7,pitcher,300,curated,1,
+long-island-pitcher-12-oz,Long Island pitcher — 12 oz,,punch,12.1,347.5,pitcher,379,curated,1,
+spiked-cider,Spiked Cider,,cocktail_hot,9.0,221.8,cocktail,192,curated,1,
+irish-coffee-built,Irish Coffee (built),,cocktail_hot,8.0,221.8,cocktail,196,curated,1,
+spanish-coffee,Spanish Coffee,,cocktail_hot,7.7,221.8,cocktail,251,curated,1,
+peppermint-patty,Peppermint Patty,,cocktail_hot,4.8,221.8,cocktail,305,curated,1,
+tom-jerry,Tom & Jerry,,cocktail_hot,10.9,162.7,cocktail,168,curated,1,
+off-5000213101223,"Bière Brune Draught 4,2% GUINNESS",Guinness,beer_dark,4.2,500.0,can,175,openfoodfacts,1,5000213101223
+off-3080216052885,1664,1664,beer_standard,5.5,250.0,can,112,openfoodfacts,1,3080216052885
+off-3080210003319,"Kronenbourg,1664",1664,beer_standard,5.5,500.0,can,225,openfoodfacts,1,3080210003319
+off-3324020303758,3 Monts,3 Monts,beer_standard,8.5,250.0,can,119,openfoodfacts,1,3324020303758
+off-4105250022003,Lagerbier Hell,Augustiner-Bräu,beer_standard,5.2,500.0,can,190,openfoodfacts,1,4105250022003
+off-80114024,BIRRA MORETTI 33 CL,BIRRA MORATTI,beer_standard,4.6,330.0,can,122,openfoodfacts,1,80114024
+off-41001318,Pils,Beck's,beer_standard,4.9,5000.0,bottle,190,openfoodfacts,1,41001318
+off-8001435500013,Birra Moretti,Birra Moretti,beer_standard,4.6,660.0,bottle,244,openfoodfacts,1,8001435500013
+off-4102430015008,Premium Pils,Bitburger,beer_standard,4.8,500.0,can,230,openfoodfacts,1,4102430015008
+off-5410769100081,La Chouffe Blonde,Brasserie Chouffe,beer_standard,8.0,330.0,can,241,openfoodfacts,1,5410769100081
+off-6901035601030,Bier Tsingtao,Brewery international as,beer_standard,4.7,330.0,can,152,openfoodfacts,1,6901035601030
+off-75041670,Corona Extra,Corona,beer_standard,4.5,330.0,can,139,openfoodfacts,1,75041670
+off-75032814,corona extra,Corona,beer_standard,1.36,355.0,can,139,openfoodfacts,1,75032814
+off-3119783007483,Desperados Original aguardiente,DESPERADOS,beer_standard,5.9,330.0,can,188,openfoodfacts,1,3119783007483
+off-5411681014005,Goudblond speciaalbier van hoge gisting,DUVEL,beer_standard,8.5,100.0,can,64,openfoodfacts,1,5411681014005
+off-8410793036131,Cerveza Vall-Damm Doble Malta,Damm,beer_standard,7.2,330.0,can,218,openfoodfacts,1,8410793036131
+off-8410793021946,Estrella Damm,Damm,beer_standard,5.4,250.0,can,1198,openfoodfacts,1,8410793021946
+off-3119780266401,BTE 50CL DESPERADOS 5.90%,Desperados,beer_standard,5.9,500.0,can,295,openfoodfacts,1,3119780266401
+off-3119780250110,Desperados,Desperados,beer_standard,5.9,250.0,can,148,openfoodfacts,1,3119780250110
+off-3080216049618,Grimbergen 25 cl Grimbergen Double Ambrèe 6.5 DEGRE ALCOOL,GRIMBERGEN,beer_standard,6.5,250.0,can,142,openfoodfacts,1,3080216049618
+off-3080216056593,Grimbergen 25 cl Grimbergen Rouge 5.5 DEGRE ALCOOL,GRIMBERGEN,beer_standard,5.5,250.0,can,135,openfoodfacts,1,3080216056593
+off-3080216049632,Grimbergen Blonde,GRIMBERGEN,beer_standard,6.7,250.0,can,135,openfoodfacts,1,3080216049632
+off-8480000664631,Cerveza Lager Clásica,Hacendado,beer_standard,4.8,330.0,can,139,openfoodfacts,1,8480000664631
+off-3119780268696,BTE 50CL BIERE 5% HEINEKEN,Heineken,beer_standard,5.0,5000.0,bottle,210,openfoodfacts,1,3119780268696
+off-87120158,Cerveza Heineken,Heineken,beer_standard,5.0,330.0,can,139,openfoodfacts,1,87120158
+off-3119780259625,Heineken,Heineken,beer_standard,5.0,330.0,can,139,openfoodfacts,1,3119780259625
+off-8006890681543,Ichnusa non filtrata,Heineken,beer_standard,5.0,500.0,can,210,openfoodfacts,1,8006890681543
+off-8712000900045,Heineken Beer,Heineken Bier,beer_standard,5.0,500.0,can,210,openfoodfacts,1,8712000900045
+off-3272460122272,Bière blonde pur malt,Jade,beer_standard,4.5,250.0,can,115,openfoodfacts,1,3272460122272
+off-5410228142027,Jupiler Belgisch pils krat,Jupiler,beer_standard,5.2,354.9,can,43,openfoodfacts,1,5410228142027
+off-4008287050134,"GT-Mobility - Tankstelle , KFZ-Service , Abschlepp- & Bergedienst",Krombacher,beer_standard,4.8,5000.0,bottle,190,openfoodfacts,1,4008287050134
+off-4008287056020,Krombacher Pils,Krombacher,beer_standard,4.8,330.0,can,125,openfoodfacts,1,4008287056020
+off-3080216051536,Kronenbourg Bière blonde 4.2%vol,Kronenbourg,beer_standard,4.2,250.0,can,88,openfoodfacts,1,3080216051536
+off-5410228142218,Leffe Blonde 🍺,Leffe,beer_standard,6.6,330.0,can,191,openfoodfacts,1,5410228142218
+off-5410228222941,לף בלנוד פחית,Leffe,beer_standard,6.6,500.0,can,290,openfoodfacts,1,5410228222941
+off-8410655000010,Cerveza Especial San Miguel,Mahou,beer_standard,5.4,330.0,can,162,openfoodfacts,1,8410655000010
+off-8411327022019,Cerveza Mahou Clásica,Mahou,beer_standard,4.8,330.0,can,139,openfoodfacts,1,8411327022019
+off-8411327122016,Cerveza especial,Mahou,beer_standard,4.5,330.0,can,162,openfoodfacts,1,8411327122016
+off-80067955,Peroni,Peroni,beer_standard,4.7,354.9,can,138,openfoodfacts,1,80067955
+off-56002621,mini,Super Bock,beer_standard,5.2,200.0,can,80,openfoodfacts,1,56002621
+off-54050082,TRIPEL KARMELIET,TRIPEL KARMELIET,beer_standard,8.4,330.0,can,251,openfoodfacts,1,54050082
+off-5410693100553,"BLE 75CL BIERE KARMELIET 8,4%V",Tripel Karmeliet,beer_standard,8.4,750.0,bottle,251,openfoodfacts,1,5410693100553
+off-5014379007237,Biere bud,budweiser,beer_standard,5.0,250.0,can,30,openfoodfacts,1,5014379007237
+off-3080216051529,Bière blanche 1664,1664,beer_wheat,5.0,250.0,can,112,openfoodfacts,1,3080216051529
+off-8410569615614,Cerveza Amstel Radler,Amstel,beer_wheat,2.0,330.0,can,115,openfoodfacts,1,8410569615614
+off-3700693901741,Blonde non filtré Champ Libre,Gallia,beer_wheat,5.8,330.0,can,172,openfoodfacts,1,3700693901741
+off-8480000665546,Radler,Hacendado,beer_wheat,2.1,330.0,can,139,openfoodfacts,1,8480000665546
+off-4066600611981,PAULANER Weissbier pivo SKLO,PAULANER,beer_wheat,5.5,500.0,can,210,openfoodfacts,1,4066600611981
+off-3564707089647,Cidre bouché bio 4 °,Bio Village,cider,4.0,750.0,bottle,330,openfoodfacts,1,3564707089647
+off-5411718910973,Cider Original,Bulmers,cider,4.5,500.0,can,40,openfoodfacts,1,5411718910973
+off-5035766047155,Original Premium Cider,Bulmers,cider,4.5,500.0,can,188,openfoodfacts,1,5035766047155
+off-42400868,Apple Cider,Carlsberg,cider,4.5,330.0,can,61,openfoodfacts,1,42400868
+off-5411718910959,Bulmers Original #9,Hansa borg as,cider,4.5,500.0,can,210,openfoodfacts,1,5411718910959
+off-5035766052319,Inch's Cloudy Apple Cider,Inch's,cider,4.0,440.0,can,180,openfoodfacts,1,5035766052319
+off-5035766050100,Medium Apple Cider,Inch's,cider,4.5,440.0,can,189,openfoodfacts,1,5035766050100
+off-7393714507020,Sidra Fresa y lima,Kopparbergs Bryggeri,cider,4.5,330.0,can,52,openfoodfacts,1,7393714507020
+off-7393714515506,Strawberry & lime,Kopperberg,cider,4.0,500.0,can,300,openfoodfacts,1,7393714515506
+off-8437011862914,Sidra dulce,Maeloc,cider,4.1,100.0,can,44,openfoodfacts,1,8437011862914
+off-3564700002155,Cidre bouché breton brut 5 %,Marque Repère,cider,6.0,750.0,bottle,393,openfoodfacts,1,3564700002155
+off-5035766048770,Pineapple & raspberry,Old mout cider,cider,4.0,500.0,can,235,openfoodfacts,1,5035766048770
+off-8480000288981,Sidra natural,Polian,cider,6.5,700.0,bottle,294,openfoodfacts,1,8480000288981
+off-3596710550319,Cidre brut,Pouce,cider,4.5,1500.0,bottle,480,openfoodfacts,1,3596710550319
+off-56015386,Apple Cider,Somersby,cider,4.5,330.0,can,208,openfoodfacts,1,56015386
+off-3800069005926,Cider (Pear),Somersby,cider,4.5,100.0,can,61,openfoodfacts,1,3800069005926
+off-42400981,Mango & Lime Cider,Somersby,cider,4.5,330.0,can,155,openfoodfacts,1,42400981
+off-3800069006053,Raspberry & lime cider,Somersby,cider,4.5,330.0,can,182,openfoodfacts,1,3800069006053
+off-73114833,Somersby Apple Cider 4.5%,Somersby,cider,3.6,330.0,can,198,openfoodfacts,1,73114833
+off-42400905,Somersby Cider - Blackberry,Somersby,cider,4.5,330.0,can,214,openfoodfacts,1,42400905
+off-5035766049463,Cider,Strongbow,cider,4.5,440.0,can,163,openfoodfacts,1,5035766049463
+off-5020628003318,Thatchers gold cider,Thatchers,cider,4.8,440.0,can,207,openfoodfacts,1,5020628003318
+off-3256225426812,"Cidre framboise Les Festifs 2,5° bouteille verre 75cl",U,cider,2.5,750.0,bottle,750,openfoodfacts,1,3256225426812
+off-5014201655414,Henry Westons Vintage Cider 500ml,Weston’s,cider,1.64,500.0,can,275,openfoodfacts,1,5014201655414
+off-7350136990274,"Peach, Mango & Lime Cider",Älska,cider,3.4,330.0,can,165,openfoodfacts,1,7350136990274
+off-3250390030959,Banyuls traditionnel 3ans 16% vol. 75cl,Itineraire de nos regions,wine_fortified,12.6,750.0,bottle,953,openfoodfacts,1,3250390030959
+off-3175529640451,Les Calandières,,wine_red,12.5,354.9,can,280,openfoodfacts,1,3175529640451
+off-0085000017746,Red Wine,,wine_red,13.5,750.0,bottle,652,openfoodfacts,1,0085000017746
+off-8480000669056,Bebida aromatizada a base de vino para cocinar,Abuela Carola,wine_red,12.5,750.0,bottle,510,openfoodfacts,1,8480000669056
+off-4335619013711,Wild Berry Spritz,Allini,wine_red,6.9,750.0,bottle,518,openfoodfacts,1,4335619013711
+off-3148592010513,Vin rouge sans alcool,BONNE NOUVELLE,wine_red,0.5,750.0,bottle,158,openfoodfacts,1,3148592010513
+off-20252533,Tomatensaft,Cepa Lebrel,wine_red,13.5,750.0,bottle,135,openfoodfacts,1,20252533
+off-4304493261709,Christkindl Glühwein,Christkindl,wine_red,9.2,1000.0,bottle,82,openfoodfacts,1,4304493261709
+off-3147690035008,Malaga,Cruz,wine_red,15.0,750.0,bottle,1178,openfoodfacts,1,3147690035008
+off-4002859125800,Doppio Passo Rotwein alkoholfrei,Doppio Passo,wine_red,0.5,750.0,bottle,248,openfoodfacts,1,4002859125800
+off-4002859121314,EDEKA Wein Doppio Passo Weißwein 750ml 4.99€ 1l 6.65€,Doppio Passo,wine_red,12.5,750.0,bottle,592,openfoodfacts,1,4002859121314
+off-3250393007682,Boisson a base de vin rouge desalcoolisé 75 cl,Expert club,wine_red,0.4,750.0,bottle,178,openfoodfacts,1,3250393007682
+off-3250393007729,Vin blanc sans alcool,Expert club,wine_red,0.4,750.0,bottle,30,openfoodfacts,1,3250393007729
+off-8410702046992,Mucho Mas Rood tempranillo,Felix Solis,wine_red,1.04,750.0,bottle,638,openfoodfacts,1,8410702046992
+off-8410384008387,Wein - rot - Mederano Tinto trocken,Freixenet,wine_red,12.5,750.0,bottle,578,openfoodfacts,1,8410384008387
+off-8410702063043,Mucho Más,Félix Solís,wine_red,13.5,354.9,can,305,openfoodfacts,1,8410702063043
+off-3500610146886,CABERNET-SYRAH,JP. CHENET,wine_red,0.01,750.0,bottle,126,openfoodfacts,1,3500610146886
+off-3500610146879,so free Rosé,JP. CHENET,wine_red,0.01,750.0,bottle,28,openfoodfacts,1,3500610146879
+off-3211203420121,75CL Vin De Pays D' Oc Merlot Ormes,Les Ormes de Cambras Merlot,wine_red,13.0,750.0,bottle,682,openfoodfacts,1,3211203420121
+off-3175520018716,Cabernet Sauvignon,Roche Mazet,wine_red,13.0,750.0,bottle,608,openfoodfacts,1,3175520018716
+off-20131135,Erdnussflips,cimarosa,wine_red,13.0,250.0,can,1205,openfoodfacts,1,20131135
+off-9322214006229,Yellow Tail Shiraz,yellow tail crafted by the Casella Family,wine_red,13.5,750.0,bottle,638,openfoodfacts,1,9322214006229
+off-20582166,Lambrusco dell'Emilia Rosato,Bonaga,wine_sparkling,8.0,750.0,bottle,495,openfoodfacts,1,20582166
+off-3148592010650,Rosé,Bonne Nouvelle,wine_sparkling,0.5,750.0,bottle,158,openfoodfacts,1,3148592010650
+off-3049610004104,Veuve Clicquot Champagne Ponsardin Brut,Champagner weiss,wine_sparkling,12.0,750.0,bottle,102,openfoodfacts,1,3049610004104
+off-3438931010411,Vin mousseux brut blanc de blancs 75 cl Charles Volner,Charles Volner,wine_sparkling,11.0,750.0,bottle,555,openfoodfacts,1,3438931010411
+off-8410036009090,Freixenet,FREIXENET,wine_sparkling,12.0,354.9,can,263,openfoodfacts,1,8410036009090
+off-8000570083306,"MARTINI Bellini Peach 8,0%vol",MARTINI,wine_sparkling,8.0,750.0,bottle,638,openfoodfacts,1,8000570083306
+off-3043700103821,Cordon Rouge,Mumm,wine_sparkling,12.0,750.0,bottle,723,openfoodfacts,1,3043700103821
+off-3282946015837,Nicolas Feuillatte,NICOLAS FEUILLATTE,wine_sparkling,12.0,750.0,bottle,678,openfoodfacts,1,3282946015837
+off-20294588,Gris,Paysan breton,wine_sparkling,12.0,750.0,bottle,70,openfoodfacts,1,20294588
+off-8002335104066,Valdobbiadene Prosecco Superiore,Valdo,wine_sparkling,11.0,750.0,bottle,495,openfoodfacts,1,8002335104066
+off-4003301038143,Bree Chardonnay Weisswein,Bree,wine_white,12.0,750.0,bottle,555,openfoodfacts,1,4003301038143
+off-8001120907974,Vino Bianco Coop,Coop,wine_white,10.5,250.0,can,75,openfoodfacts,1,8001120907974
+off-8410261273105,Vino blanco,Don Simón,wine_white,11.0,1000.0,bottle,620,openfoodfacts,1,8410261273105
+off-3175520036338,Vin blanc sec,La Villageoise,wine_white,11.0,250.0,can,182,openfoodfacts,1,3175520036338
+off-3163934314173,Blanc,Lillet,wine_white,17.0,750.0,bottle,130,openfoodfacts,1,3163934314173
+off-9005511032978,Grüner Veltiner Sandgrube 13,WINZER KREMS,wine_white,12.5,750.0,bottle,555,openfoodfacts,1,9005511032978
+off-5942016307191,Timisoreana,,beer_standard,5.0,500.0,can,195,openfoodfacts,1,5942016307191
+off-3080216054308,1664 6x25cl 1664 5.5 degre alcool,1664,beer_standard,5.5,1500.0,bottle,675,openfoodfacts,1,3080216054308
+off-8412598004964,Normal,1906 Bier,beer_standard,6.5,330.0,can,178,openfoodfacts,1,8412598004964
+off-4105250029002,Augustiner Alkoholfrei Hell,Augustiner-Bräu,beer_standard,0.4,5000.0,bottle,115,openfoodfacts,1,4105250029002
+off-41001301,Beck's Pils,Beck's,beer_standard,16.17,330.0,can,125,openfoodfacts,1,41001301
+off-3800022701032,Пиринско Светло,Carlsberg,beer_standard,4.4,500.0,can,175,openfoodfacts,1,3800022701032
+off-3119789830061,Bière Tropical,DESPERADOS,beer_standard,5.5,330.0,can,211,openfoodfacts,1,3119789830061
+off-3119783007636,Desperados Lime,Desperados,beer_standard,3.0,330.0,can,132,openfoodfacts,1,3119783007636
+off-3119783007513,"Desperados, Desperados Red",Desperados,beer_standard,5.9,330.0,can,208,openfoodfacts,1,3119783007513
+off-8413041318065,Cerveza sin alcohol,Falke,beer_standard,1.0,330.0,can,66,openfoodfacts,1,8413041318065
+off-3080216052533,Grimbergen 25 cl Grimbergen Pale Ale 5.5 DEGRE ALCOOL,GRIMBERGEN,beer_standard,5.5,250.0,can,120,openfoodfacts,1,3080216052533
+off-9028800638644,Natur Radler,Gösser,beer_standard,2.0,500.0,can,200,openfoodfacts,1,9028800638644
+off-4014558326839,Hasseröder Premium Pils,Hasseröder,beer_standard,4.9,500.0,can,245,openfoodfacts,1,4014558326839
+off-8006890454208,Birra Heineken 66 cl,Heineken,beer_standard,5.0,660.0,bottle,277,openfoodfacts,1,8006890454208
+off-8712000058852,Heineken Bier,Heineken,beer_standard,5.0,330.0,can,139,openfoodfacts,1,8712000058852
+off-8712000310011,"Heineken Lager Beer 0,0",Heineken,beer_standard,0.03,330.0,can,21,openfoodfacts,1,8712000310011
+off-8712000018825,Original,Heineken,beer_standard,5.0,250.0,can,105,openfoodfacts,1,8712000018825
+off-3119780268276,Schweppes lemon,Heineken,beer_standard,5.0,5000.0,bottle,105,openfoodfacts,1,3119780268276
+off-5410228269779,Jupiler,JUPILER,beer_standard,5.2,50.0,shot,153,openfoodfacts,1,5410228269779
+off-3271913130758,Bière blonde,Jenlain,beer_standard,7.5,750.0,bottle,78,openfoodfacts,1,3271913130758
+off-5410228233077,"6X25CL LEFFE BLONDE 6,6%",Leffe,beer_standard,6.6,250.0,can,145,openfoodfacts,1,5410228233077
+off-5410228258698,Leffe x12,Leffe,beer_standard,6.6,250.0,can,145,openfoodfacts,1,5410228258698
+off-8411327011013,mahou clasica 1l,Mahou,beer_standard,4.2,354.9,can,149,openfoodfacts,1,8411327011013
+off-07199840,Coors Light,OLD TRAPPER,beer_standard,12.0,354.9,can,68,openfoodfacts,1,07199840
+off-4056489323020,"Biere 7,8 % 50 cl",PERLEMBOURG,beer_standard,8.0,500.0,can,300,openfoodfacts,1,4056489323020
+off-4056489103790,Cerveza,Perlembourg,beer_standard,4.9,5000.0,bottle,1300,openfoodfacts,1,4056489103790
+off-80838296,Birra,Peroni,beer_standard,4.7,660.0,bottle,257,openfoodfacts,1,80838296
+off-8594404115115,"Pilsner Urquell 0,5l boks",Pilsner Urquell,beer_standard,4.4,500.0,can,210,openfoodfacts,1,8594404115115
+off-8480000664860,Cerveza Suave,Steinburg,beer_standard,4.8,330.0,can,35,openfoodfacts,1,8480000664860
+off-5014379012873,"Stella Artois Beer, 4,6%",Stella Artois,beer_standard,4.6,440.0,can,172,openfoodfacts,1,5014379012873
+off-3800052314110,Бира 5%,Stella Artois,beer_standard,5.0,500.0,can,205,openfoodfacts,1,3800052314110
+off-4005249061702,Pülleken,Veltins,beer_standard,5.2,330.0,can,142,openfoodfacts,1,4005249061702
+off-5407006760085,Trotinette,drink drink!,beer_standard,0.4,330.0,can,89,openfoodfacts,1,5407006760085
+off-3080216048291,1664 6x25cl 1664 blanc 5.0 degre alcool,1664,beer_wheat,5.0,1500.0,bottle,675,openfoodfacts,1,3080216048291
+off-3760023241091,La Blanche,Brasserie du Mont Blanc,beer_wheat,4.7,750.0,bottle,448,openfoodfacts,1,3760023241091
+off-4072700001126,Franziskaner Premium Weissbier Naturtrüb,Franziskaner,beer_wheat,5.0,5000.0,bottle,215,openfoodfacts,1,4072700001126
+off-3080216049625,Grimbergen 25 cl Grimbergen Blanche 6.0 DEGRE ALCOOL,GRIMBERGEN,beer_wheat,6.0,250.0,can,128,openfoodfacts,1,3080216049625
+off-8480000667717,Shandy sabor a limón,Hacendado,beer_wheat,1.0,330.0,can,122,openfoodfacts,1,8480000667717
+off-5410228169604,הוגרדן פחית,Hoegaarden,beer_wheat,4.9,500.0,can,225,openfoodfacts,1,5410228169604
+off-5411656051479,Mort subite kriek lambic,Kriek Lambic,beer_wheat,4.5,250.0,can,118,openfoodfacts,1,5411656051479
+off-4066600201922,Hefe-Weißbier naturtrüb,Paulaner,beer_wheat,5.5,5000.0,bottle,2100,openfoodfacts,1,4066600201922
+off-3498640100001,Pietra biera corsa ambrée à la châtaigne,Pietra,beer_wheat,6.0,250.0,can,282,openfoodfacts,1,3498640100001
+off-3770000661071,ANOSTEKE Blonde,Brasserie du pays flamand,beer_craft,8.0,750.0,bottle,131,openfoodfacts,1,3770000661071
+off-5000213008232,Guinness,Guinness,beer_dark,7.5,330.0,can,214,openfoodfacts,1,5000213008232
+off-3119780042517,BTE 50CL PELFORTH BRUNE 6.5%V,Pelforth,beer_dark,6.5,500.0,can,305,openfoodfacts,1,3119780042517
+off-5411681401164,Duvel Tripel Hop Citra,Duvel,beer_ipa,9.5,330.0,can,224,openfoodfacts,1,5411681401164
+off-0723830000100,IPA,Lagunitas,beer_ipa,6.2,355.0,can,185,openfoodfacts,1,0723830000100
+off-4014086093364,"5,0 Original Pils",0 Original,beer_standard,5.0,500.0,can,200,openfoodfacts,1,4014086093364
+off-3080210004491,"Biere 1664,",1664,beer_standard,5.0,500.0,can,250,openfoodfacts,1,3080210004491
+off-8714800004114,50CL BIERE 8.6,8.6,beer_standard,8.6,500.0,can,285,openfoodfacts,1,8714800004114
+off-3119780257645,Affligem,Affligem,beer_standard,6.7,250.0,can,56,openfoodfacts,1,3119780257645
+off-3119780257621,"Bière Affligem 6,7%",Affligem,beer_standard,6.7,250.0,can,140,openfoodfacts,1,3119780257621
+off-8413681000344,Alhambra Beer   Premium Lager,Alhambra,beer_standard,4.6,330.0,can,132,openfoodfacts,1,8413681000344
+off-8413681301236,Alhambra especial,Alhambra,beer_standard,5.4,330.0,can,162,openfoodfacts,1,8413681301236
+off-8712000059071,Pilsener,Amstel,beer_standard,4.0,330.0,can,135,openfoodfacts,1,8712000059071
+off-42178170,"Beck's Pils, 4,9 % Vol.",Anheuser-Busch Inbev,beer_standard,4.9,5000.0,bottle,190,openfoodfacts,1,42178170
+off-4105250024007,Bier Edelstoff,Augustiner-Bräu,beer_standard,5.6,500.0,can,210,openfoodfacts,1,4105250024007
+off-5410228264538,King of Beer,BUD,beer_standard,5.0,330.0,can,148,openfoodfacts,1,5410228264538
+off-42021315,Beck's Blue Alkoholfrei,Beck's,beer_standard,0.5,330.0,can,76,openfoodfacts,1,42021315
+off-42150022,Beck's Ice - Lime & Mint,Beck's,beer_standard,2.5,330.0,can,1610,openfoodfacts,1,42150022
+off-42061946,Birra analcolica blue,Beck's,beer_standard,0.3,330.0,can,76,openfoodfacts,1,42061946
+off-4102430015107,Pilsener Steinie,Bitburger,beer_standard,3.1,330.0,can,132,openfoodfacts,1,4102430015107
+off-8714800038454,Bière 8.6,Bière 8.6,beer_standard,8.6,500.0,can,285,openfoodfacts,1,8714800038454
+off-6111045001670,Casablanca,Brasserie du Maroc,beer_standard,4.0,330.0,can,139,openfoodfacts,1,6111045001670
+off-3278720000960,Bourbon,Brasseries de Bourbon,beer_standard,5.0,330.0,can,132,openfoodfacts,1,3278720000960
+off-5014379008630,Budweiser,Bud,beer_standard,5.0,330.0,can,148,openfoodfacts,1,5014379008630
+off-3080216017785,"KRONENBOURG,Bud, Kronenbourg 7°2 Blonde",Bud,beer_standard,7.2,500.0,can,300,openfoodfacts,1,3080216017785
+off-8594403310115,Budvar Czech Lager,Budweiser,beer_standard,5.0,500.0,can,210,openfoodfacts,1,8594403310115
+off-3080216008622,Carlsberg 33 cl Carlsberg 5.0 DEGRE ALCOOL,CARLSBERG,beer_standard,5.0,330.0,can,132,openfoodfacts,1,3080216008622
+off-7610055100636,Calanda Radler,Calanda Getränke Chur,beer_standard,1.6,500.0,can,200,openfoodfacts,1,7610055100636
+off-5010038485880,CARLING ORIGINAL LAGER,Carling,beer_standard,4.0,440.0,can,141,openfoodfacts,1,5010038485880
+off-8410590111017,Cerveza sin filtrar,Cervecera de Canarias,beer_standard,5.5,330.0,can,162,openfoodfacts,1,8410590111017
+off-5410228292203,Cero,Corona,beer_standard,0.01,330.0,can,56,openfoodfacts,1,5410228292203
+off-08066145,Corona Extra,Corona,beer_standard,3.64,354.9,can,148,openfoodfacts,1,08066145
+off-75032715,cerveza,Corona,beer_standard,4.5,355.0,can,149,openfoodfacts,1,75032715
+off-3119780248186,BTE 50CL DESPERADOS RED 5.9%V,DESPERADOS,beer_standard,5.9,500.0,can,1270,openfoodfacts,1,3119780248186
+off-3119780268405,6X33 DESPERADOS PK,Desperados,beer_standard,5.9,330.0,can,188,openfoodfacts,1,3119780268405
+off-5900535005066,Radler,Edelmeister,beer_standard,2.0,500.0,can,105,openfoodfacts,1,5900535005066
+off-8412598000775,Estrella Galicia cerveza,Estrella Galicia,beer_standard,5.5,500.0,can,235,openfoodfacts,1,8412598000775
+off-76129810,Original,Feldschlösschen,beer_standard,3.75,500.0,can,185,openfoodfacts,1,76129810
+off-41030806,Flensburger Pilsener,Flensburger,beer_standard,3.8,330.0,can,125,openfoodfacts,1,41030806
+off-0088394000325,Premium Weißbier,Franziskaner Weissbier,beer_standard,5.0,354.9,can,520,openfoodfacts,1,0088394000325
+off-3080216049601,Grimbergen 25 cl Grimb Triple d'Abbaye 8.0 DEGRE ALCOOL,GRIMBERGEN,beer_standard,8.0,250.0,can,168,openfoodfacts,1,3080216049601
+off-3080216034645,Grimbergen 33 cl Grimbergen Double Ambrèe 6.5 DEGRE ALCOOL,GRIMBERGEN,beer_standard,6.5,330.0,can,188,openfoodfacts,1,3080216034645
+off-3080210008116,Grimbergen 50 cl Grimbergen Blonde 6.7 DEGRE ALCOOL,GRIMBERGEN,beer_standard,6.7,500.0,can,270,openfoodfacts,1,3080210008116
+off-3080216050621,Grimbergen Bière d'Abbaye 6x25CL GRIMBERGEN BLONDE 6.7 DEGRE ALCOOL,GRIMBERGEN,beer_standard,6.7,1500.0,bottle,135,openfoodfacts,1,3080216050621
+off-3261570005315,Goudale Ambrée,Goudale Ambrée,beer_standard,7.0,500.0,can,42,openfoodfacts,1,3261570005315
+off-90129018,Märzen,Gösser,beer_standard,4.0,5000.0,bottle,215,openfoodfacts,1,90129018
+off-8480000667656,Especial,Hacendado,beer_standard,5.5,330.0,can,158,openfoodfacts,1,8480000667656
+off-8001435440012,Bier Birra Moretti Ricetta 33 cl,Heineken,beer_standard,3.68,330.0,can,122,openfoodfacts,1,8001435440012
+off-8712000058807,Heineke,Heineken,beer_standard,5.0,354.9,can,42,openfoodfacts,1,8712000058807
+off-5942105009104,Heineken doza,Heineken,beer_standard,5.0,354.9,can,149,openfoodfacts,1,5942105009104
+off-4022396000026,Tegernseer Hell,Herzoglich Bayerisches Brauhaus Tegernsee,beer_standard,3.84,5000.0,bottle,215,openfoodfacts,1,4022396000026
+off-8600105001463,Jelen svetlo pivo,Jelen,beer_standard,4.6,500.0,can,205,openfoodfacts,1,8600105001463
+off-4008948027000,Jever Pilsener,Jever,beer_standard,4.9,5000.0,bottle,200,openfoodfacts,1,4008948027000
+off-3080210000707,Kronenbourg,KRONENBOURG,beer_standard,4.2,330.0,can,115,openfoodfacts,1,3080210000707
+off-3080216043210,Kronenbourg 50 cl Kronenbourg 4.2 DEGRE ALCOOL,KRONENBOURG,beer_standard,4.2,500.0,can,175,openfoodfacts,1,3080216043210
+off-8594404005782,Lager Premium,Kozel,beer_standard,4.6,5000.0,bottle,2000,openfoodfacts,1,8594404005782
+off-5410228285182,75CL KWAK 8.4%,Kwak,beer_standard,8.4,750.0,bottle,190,openfoodfacts,1,5410228285182
+off-5410228213451,50CL BIERE LEFFE RUBY,Leffe,beer_standard,5.0,500.0,can,275,openfoodfacts,1,5410228213451
+off-3162330080323,Saint-Bertin French Lager,Lidl,beer_standard,2.05,250.0,can,74,openfoodfacts,1,3162330080323
+off-4082100009097,Mönchshof Kellerbier,Mönchshof,beer_standard,5.4,500.0,can,225,openfoodfacts,1,4082100009097
+off-8594404110127,Pilsner Urquell The original pilsner 4-pack,PILSNER URQUELL,beer_standard,4.4,354.9,can,153,openfoodfacts,1,8594404110127
+off-42143833,Perlenbacher  Pils,Perlenbacher,beer_standard,4.9,500.0,can,210,openfoodfacts,1,42143833
+off-7310070004208,"Brooklyn Special Effects 0,33l",RINGNES AS,beer_standard,0.32,330.0,can,96,openfoodfacts,1,7310070004208
+off-3291820009213,BLE 75CL BIER.RINCE COCHON 8.5,Rince Cochon,beer_standard,8.5,750.0,bottle,270,openfoodfacts,1,3291820009213
+off-41051825,Tannenzäpfle,Rothaus,beer_standard,5.1,330.0,can,132,openfoodfacts,1,41051825
+off-5410228141235,Stella Artois,STELLA ARTOIS,beer_standard,5.2,250.0,can,110,openfoodfacts,1,5410228141235
+off-8410655000393,Bière San Miguel,San Miguel,beer_standard,5.4,250.0,can,122,openfoodfacts,1,8410655000393
+off-8850999112107,Singha,Singha,beer_standard,5.0,330.0,can,115,openfoodfacts,1,8850999112107
+off-6111045000222,Biere Flag Spéciale,Société des brasseries du Maroc,beer_standard,5.2,109.0,can,51,openfoodfacts,1,6111045000222
+off-4072700005315,Münchner Hell,Spaten,beer_standard,5.2,5000.0,bottle,225,openfoodfacts,1,4072700005315
+off-5942070005859,Staropramen,Staropramen,beer_standard,5.0,500.0,can,220,openfoodfacts,1,5942070005859
+off-0786150000052,Stella Artois,Stella Artois,beer_standard,3.95,331.2,can,140,openfoodfacts,1,0786150000052
+off-41057759,Sternburg Export,Sternburg,beer_standard,5.2,500.0,can,210,openfoodfacts,1,41057759
+off-0048000246004,Asahi,Super Dry,beer_standard,5.0,330.0,can,132,openfoodfacts,1,0048000246004
+off-5740700999833,Tuborg Tuborg Classic,Tuborg,beer_standard,4.6,330.0,can,129,openfoodfacts,1,5740700999833
+off-5901359062013,Bier &quot;Tyskie Gronie&quot;,Tyskie,beer_standard,5.2,500.0,can,215,openfoodfacts,1,5901359062013
+off-41058145,Ur-Krostitzer Pilsner,Ur-Krostitzer,beer_standard,4.9,500.0,can,200,openfoodfacts,1,41058145
+off-4005249000565,Pilsener,Veltins,beer_standard,4.8,500.0,can,40,openfoodfacts,1,4005249000565
+off-5412343201337,"WESTMALLE trappist tripel9,5%vol",WESTMALLE,beer_standard,9.5,330.0,can,257,openfoodfacts,1,5412343201337
+off-90031977,Bier,Zipfer,beer_standard,5.0,500.0,can,205,openfoodfacts,1,90031977
+off-3155930001355,Bière aromatisée Tequila,DESPERADOS,beer_wheat,5.9,500.0,can,295,openfoodfacts,1,3155930001355
+off-4002103248248,"Weissbier, hveteøl",Erdinger,beer_wheat,5.3,500.0,can,220,openfoodfacts,1,4002103248248
+off-4072700003649,Franziskaner Weissbier,Franziskaner,beer_wheat,5.0,500.0,can,215,openfoodfacts,1,4072700003649
+off-5410228141785,"hoegarden 0,33",Hoegaarden,beer_wheat,1.48,330.0,can,44,openfoodfacts,1,5410228141785
+off-5900490000182,Lech Premium,Lech,beer_wheat,5.0,500.0,can,205,openfoodfacts,1,5900490000182
+off-42391913,Radler Natur Trüb,Lidl,beer_wheat,2.5,330.0,can,125,openfoodfacts,1,42391913
+off-4066600601920,Weissbier Munich Wheat Beer,Paulaner,beer_wheat,5.5,500.0,can,210,openfoodfacts,1,4066600601920
+off-8480000664815,Radler,Steinburg,beer_wheat,2.1,500.0,can,210,openfoodfacts,1,8480000664815
+off-5010134922500,Jam Shed Shiraz,Jam Shed,wine_red,12.5,750.0,bottle,106,openfoodfacts,1,5010134922500
+off-0087872686037,Chery Lime,San Antonio Fruit Farm,wine_sparkling,6.0,750.0,bottle,110,openfoodfacts,1,0087872686037
+off-8033928159002,Birra Friuli,Azienda Agricola Altúris,beer_craft,1.42,330.0,can,37,openfoodfacts,1,8033928159002
+off-5942016306675,Ciucaș Bere 2.5 pet,Ciucaș,beer_craft,4.6,5000.0,bottle,1900,openfoodfacts,1,5942016306675
+off-93302074,Sparkling ale,Coopers,beer_craft,1.55,375.0,can,206,openfoodfacts,1,93302074
+off-3119789831099,Bière Champ Libre,Gallia,beer_craft,5.8,660.0,bottle,343,openfoodfacts,1,3119789831099
+off-5010153872282,Session IPA,Hobgoblin,beer_craft,3.4,500.0,can,160,openfoodfacts,1,5010153872282
+off-7310070752116,"D. Carnegie & Co. Porter 3,5%",,beer_dark,3.5,500.0,can,160,openfoodfacts,1,7310070752116
+off-0767550730787,Hazelnut Porter,Big Drop Brewing Co.,beer_dark,0.5,330.0,can,91,openfoodfacts,1,0767550730787
+off-0767665920066,Stout,Big Drop Brewing Co.,beer_dark,0.5,330.0,can,90,openfoodfacts,1,0767665920066
+off-0083820125559,Foreign Extra Stout,Guinness,beer_dark,7.5,330.0,can,214,openfoodfacts,1,0083820125559
+off-5000213016114,Guiness Original,Guinness,beer_dark,5.0,250.0,can,105,openfoodfacts,1,5000213016114
+off-5000213012017,Guinness Foreign Extra Stout,Guinness,beer_dark,7.5,325.0,can,214,openfoodfacts,1,5000213012017
+off-5000213016107,Original,Guinness,beer_dark,5.0,250.0,can,124,openfoodfacts,1,5000213016107
+off-87292220,Grand Prestige,Hertog Jan,beer_dark,8.0,300.0,can,259,openfoodfacts,1,87292220
+off-5410228146162,Brune,Leffe,beer_dark,1.97,330.0,can,189,openfoodfacts,1,5410228146162
+off-5410228142119,Brune Bière,Leffe,beer_dark,6.5,250.0,can,142,openfoodfacts,1,5410228142119
+off-5060265860141,Dark Arts,Magic Rock Brewing,beer_dark,6.0,330.0,can,191,openfoodfacts,1,5060265860141
+off-3119780267477,6X25CL PELFORTH BRUNE PK 6.5%V,Pelforth,beer_dark,6.5,250.0,can,152,openfoodfacts,1,3119780267477
+off-3119780209095,Brune douce et puissante,Pelforth,beer_dark,6.5,250.0,can,15,openfoodfacts,1,3119780209095
+off-3119780267446,Pelfort brune,Pelforth,beer_dark,6.5,250.0,can,61,openfoodfacts,1,3119780267446
+off-5410228141167,bière de table,Piedbœuf,beer_dark,1.1,750.0,bottle,22,openfoodfacts,1,5410228141167
+off-56001266,Biere brune,Super Bock,beer_dark,5.0,354.9,can,167,openfoodfacts,1,56001266
+off-5901559949343,Porter,Żywiec,beer_dark,9.5,500.0,can,450,openfoodfacts,1,5901559949343
+off-7310070004215,East IPA,Brooklyn,beer_ipa,6.9,330.0,can,191,openfoodfacts,1,7310070004215
+off-7310070004871,Brooklyn Stonewall Inn IPA,Brooklyn Brewery,beer_ipa,4.6,330.0,can,132,openfoodfacts,1,7310070004871
+off-7310070004246,Defender IPA,Brooklyn Brewery,beer_ipa,5.5,330.0,can,152,openfoodfacts,1,7310070004246
+off-0754527004224,Voodooo Ranger Imperial IPA,Dogfish Head,beer_ipa,3.45,709.8,bottle,250,openfoodfacts,1,0754527004224
+off-0754527011734,Juice Force IPA,Voodoo Ranger,beer_ipa,7.5,354.9,can,240,openfoodfacts,1,0754527011734
+off-93214643,Hahn premium light,Hahn,beer_light,0.59,375.0,can,90,openfoodfacts,1,93214643
+off-0604565335425,"Beer, Peach, 4.0%",Jubel,beer_light,4.0,330.0,can,125,openfoodfacts,1,0604565335425
+off-5060621160205,Lucky Saint Hazy IPA,Lucky Saint,beer_light,0.5,330.0,can,59,openfoodfacts,1,5060621160205
+off-3080216048338,1664 6x33cl can 1664 hd 5.5 degre alcool,1664,beer_standard,5.5,1980.0,bottle,891,openfoodfacts,1,3080216048338
+off-5410228282587,BIERE VICTORIA 75 CL,1695,beer_standard,8.5,750.0,bottle,152,openfoodfacts,1,5410228282587
+off-8714800021395,"Bavaria,8.6",8.6,beer_standard,6.5,500.0,can,275,openfoodfacts,1,8714800021395
+off-8714800036214,Bière intense India Pale Lager,8.6,beer_standard,7.0,500.0,can,295,openfoodfacts,1,8714800036214
+off-5412858000067,Trappiste Rochefort 6,Abbaye notre-dame de saint-remy,beer_standard,7.5,330.0,can,3,openfoodfacts,1,5412858000067
+off-3119780257720,Cuvée de Noël,Affligem,beer_standard,6.2,250.0,can,182,openfoodfacts,1,3119780257720
+off-4061458212311,Winterbock,Aldi,beer_standard,7.0,5000.0,bottle,285,openfoodfacts,1,4061458212311
+off-8410569015650,Cerveza Clásica Amstel,Amstel,beer_standard,4.8,330.0,can,40,openfoodfacts,1,8410569015650
+off-8008440212481,Peroni Nastro Azzurro,Asahi,beer_standard,5.0,620.0,bottle,260,openfoodfacts,1,8008440212481
+off-3080216004983,Carlsberg 50 cl Carlsberg 5.0 DEGRE ALCOOL,BK,beer_standard,5.0,500.0,can,200,openfoodfacts,1,3080216004983
+off-8714800026949,Bière,Bavaria,beer_standard,10.5,500.0,can,285,openfoodfacts,1,8714800026949
+off-3572860001352,Bière blonde extra,Bellerose,beer_standard,6.5,750.0,bottle,90,openfoodfacts,1,3572860001352
+off-4004160005338,Pilsner,Berliner,beer_standard,5.0,5000.0,bottle,2000,openfoodfacts,1,4004160005338
+off-8056095260074,Premium lager puro malto,Birra dello stretto,beer_standard,5.0,330.0,can,125,openfoodfacts,1,8056095260074
+off-3272460150589,La Bête Blonde,Brasserie Castelain,beer_standard,8.0,330.0,can,214,openfoodfacts,1,3272460150589
+off-5412983280020,"Paix Dieu, triple",Brasserie Caulier,beer_standard,10.0,330.0,can,43,openfoodfacts,1,5412983280020
+off-3770017281088,Bière bio sans alcool,Brasserie du Marrel,beer_standard,0.5,330.0,can,30,openfoodfacts,1,3770017281088
+off-5740600514143,Carlsberg,Carlsberg,beer_standard,5.0,500.0,can,190,openfoodfacts,1,5740600514143
+off-3080216055084,Copenhaguen denmark,Carlsberg,beer_standard,5.0,1980.0,bottle,792,openfoodfacts,1,3080216055084
+off-8431876013689,Saer brau est. 1985 holandesa premium quality,Carrefour,beer_standard,4.8,330.0,can,34,openfoodfacts,1,8431876013689
+off-7610827333811,Lager Bier,Coop,beer_standard,4.6,500.0,can,210,openfoodfacts,1,7610827333811
+off-75003821,Cerveza Dos Equis XX,Dos Equis,beer_standard,4.2,355.0,can,7,openfoodfacts,1,75003821
+off-8413681300093,Cerveza pilsen,El Águila Negra,beer_standard,5.0,330.0,can,40,openfoodfacts,1,8413681300093
+off-5400141266894,Carapils,Everyday,beer_standard,4.4,500.0,can,160,openfoodfacts,1,5400141266894
+off-4072700001072,Franziskaner Weissbier Kristallklar,Franziskaner,beer_standard,5.0,5000.0,bottle,2150,openfoodfacts,1,4072700001072
+off-8594404012094,Premium 12,GAMBRINUS,beer_standard,5.2,5000.0,bottle,210,openfoodfacts,1,8594404012094
+off-3080216050508,Grimbergen 75 cl Grimbergen Blonde 6.7 DEGRE ALCOOL,GRIMBERGEN,beer_standard,6.7,750.0,bottle,405,openfoodfacts,1,3080216050508
+off-3080216050263,Grimbergen Bière d'Abbaye 12X25CL GRIMBERGEN AMBREE 6.5 DEGRE ALCOOL,GRIMBERGEN,beer_standard,6.5,3000.0,bottle,1710,openfoodfacts,1,3080216050263
+off-3080216050713,Grimbergen Bière d'Abbaye 20X25CL GRIMBERGEN BLONDE 6.7 DEGRE ALCOOL,GRIMBERGEN,beer_standard,6.7,5000.0,bottle,2700,openfoodfacts,1,3080216050713
+off-3080216003306,Grimbergen Bière d'Abbaye 6X25CL GRIMBERGEN AMBREE 6.5 DEGRE ALCOOL,GRIMBERGEN,beer_standard,6.5,1500.0,bottle,14,openfoodfacts,1,3080216003306
+off-54004207,Special export,GUINNESS,beer_standard,8.0,330.0,can,205,openfoodfacts,1,54004207
+off-0083741150012,Grolsch,Grolsch,beer_standard,5.0,500.0,can,200,openfoodfacts,1,0083741150012
+off-50213245,Draught Stout,Guinness,beer_standard,4.2,330.0,can,38,openfoodfacts,1,50213245
+off-9313419522225,Super Dry Low Carb,HAHN,beer_standard,1.39,330.0,can,99,openfoodfacts,1,9313419522225
+off-9313419522997,SuperDry GF Gluten Free,HAHN,beer_standard,1.27,330.0,can,99,openfoodfacts,1,9313419522997
+off-54085190,Tongerlo Lux Blond,Haacht,beer_standard,6.0,330.0,can,175,openfoodfacts,1,54085190
+off-3119780259045,6 pack 33 cl Heineken,Heineken,beer_standard,5.0,330.0,can,139,openfoodfacts,1,3119780259045
+off-5942105000941,Heineken Pure Malt Lager,Heineken,beer_standard,5.0,500.0,can,210,openfoodfacts,1,5942105000941
+off-3830001710991,Lasko,Heineken,beer_standard,4.9,500.0,can,200,openfoodfacts,1,3830001710991
+off-4000732001463,MaiBock,Hochdorfer,beer_standard,7.5,1980.0,bottle,1109,openfoodfacts,1,4000732001463
+off-4101010007389,Edel Würzig (4.9%),Holsten,beer_standard,4.9,330.0,can,129,openfoodfacts,1,4101010007389
+off-3080216054841,Kronenbourg 25 cl Kronenbourg Pur Malt 0.4 DEGRE ALCOOL,KRONENBOURG,beer_standard,0.4,250.0,can,70,openfoodfacts,1,3080216054841
+off-4260134390019,Bière blonde kirin,Kirin Ichiban,beer_standard,5.0,330.0,can,142,openfoodfacts,1,4260134390019
+off-41016916,"Edelherb Premium Pils Kulmbacher 0,5 L",Kulmbacher,beer_standard,4.9,5000.0,bottle,205,openfoodfacts,1,41016916
+off-3272460150930,50CL BTE LA BETE 8o,La Bête,beer_standard,8.0,500.0,can,437,openfoodfacts,1,3272460150930
+off-3347970011269,La Raoul,La Raoul,beer_standard,7.0,354.9,can,4,openfoodfacts,1,3347970011269
+off-8711406032602,Blond,La Trappe,beer_standard,6.5,330.0,can,150,openfoodfacts,1,8711406032602
+off-8711406022207,La Trappe quadruple 10%,La Trappe,beer_standard,10.0,330.0,can,271,openfoodfacts,1,8711406022207
+off-4012852001049,Bière,Lammsbräu,beer_standard,4.7,500.0,can,190,openfoodfacts,1,4012852001049
+off-5410228142089,Abbeye be Leffe Blond Beer,Leffe,beer_standard,6.6,330.0,can,191,openfoodfacts,1,5410228142089
+off-5410228147213,BLE 6X25CL BIER.ABB.LEF.TRIPLE,Leffe,beer_standard,8.5,250.0,can,165,openfoodfacts,1,5410228147213
+off-5410228191568,BLE 7SUL BİERE ABBAYE LEFFE 9%,Leffe,beer_standard,9.0,750.0,bottle,562,openfoodfacts,1,5410228191568
+off-5410228255000,Birra Leffe Rossa,Leffe,beer_standard,6.6,750.0,bottle,60,openfoodfacts,1,5410228255000
+off-5410228242055,Bière ambrée,Leffe,beer_standard,6.6,750.0,bottle,435,openfoodfacts,1,5410228242055
+off-5410228225355,Bière blonde,Leffe,beer_standard,6.6,250.0,can,145,openfoodfacts,1,5410228225355
+off-5410228303947,Blond,Leffe,beer_standard,6.6,330.0,can,191,openfoodfacts,1,5410228303947
+off-5410228203834,Leffe,Leffe,beer_standard,5.0,330.0,can,182,openfoodfacts,1,5410228203834
+off-5410228201205,Leffe Blond bier blik,Leffe,beer_standard,6.6,330.0,can,191,openfoodfacts,1,5410228201205
+off-5410228203582,Leffe Blonde,Leffe,beer_standard,6.6,330.0,can,191,openfoodfacts,1,5410228203582
+off-5410228206361,Leffe Nectar,Leffe,beer_standard,5.5,250.0,can,145,openfoodfacts,1,5410228206361
+off-5410228223092,Leffe Royale Crystal Hops Blond 75 CL Fles,Leffe,beer_standard,7.5,750.0,bottle,142,openfoodfacts,1,5410228223092
+off-5410228217862,Leffe Royale Whitbread Golding (7.5%),Leffe,beer_standard,7.5,750.0,bottle,150,openfoodfacts,1,5410228217862
+off-5410228202806,Leffe de Printemps,Leffe,beer_standard,6.6,250.0,can,150,openfoodfacts,1,5410228202806
+off-5410228230441,Ruby bière belge - Alc. 5.0% Vol.,Leffe,beer_standard,5.0,250.0,can,138,openfoodfacts,1,5410228230441
+off-20841461,Emmentaler,Lidl,beer_standard,7.0,354.9,can,1363,openfoodfacts,1,20841461
+off-40786179,Löwenbräu original,Löwenbräu,beer_standard,5.2,500.0,can,225,openfoodfacts,1,40786179
+off-54017016,MAES PILS ~ Casier de 24x25cl.,Maes,beer_standard,5.2,250.0,can,100,openfoodfacts,1,54017016
+off-8411327002004,"Maestra Doble Lupulo, 7,5%",Mahou,beer_standard,7.5,330.0,can,221,openfoodfacts,1,8411327002004
+off-3760029980017,Ninkasi Ambrée,Ninkasi,beer_standard,3.47,750.0,bottle,240,openfoodfacts,1,3760029980017
+off-7310401006925,"Norrlands Guld, 5,3%",Norrlands Guld,beer_standard,5.3,330.0,can,158,openfoodfacts,1,7310401006925
+off-7310401006765,"Norrlands Guld, lager, øl",Norrlands Guld,beer_standard,4.5,500.0,can,165,openfoodfacts,1,7310401006765
+off-9320000513579,PURE BLONDE ULTRA LOW CARB LAGER,PURE BLONDE,beer_standard,3.3,330.0,can,86,openfoodfacts,1,9320000513579
+off-3119780246410,Pelforth Blonde,Pelforth,beer_standard,5.8,500.0,can,245,openfoodfacts,1,3119780246410
+off-4304493267879,Светла бира,Perlenbacher,beer_standard,4.9,500.0,can,200,openfoodfacts,1,4304493267879
+off-5411633213302,Queue De Charrue Ambrée,Ploegsteert,beer_standard,5.5,330.0,can,142,openfoodfacts,1,5411633213302
+off-8594404001418,Tmavý velkopopovický kozel,Plzeňský Prazdroj,beer_standard,3.8,500.0,can,175,openfoodfacts,1,8594404001418
+off-4014388001036,Radeberger Pilsner,Radeberger,beer_standard,4.9,500.0,can,205,openfoodfacts,1,4014388001036
+off-7044610877099,"Schous Lite, 4,3%",Rignes AS,beer_standard,4.3,500.0,can,140,openfoodfacts,1,7044610877099
+off-5000213101872,Guinness Draught Stout,Ringnes as,beer_standard,4.2,440.0,can,154,openfoodfacts,1,5000213101872
+off-7310401006963,S Bright Brew,S Bright Brew,beer_standard,5.0,500.0,can,200,openfoodfacts,1,7310401006963
+off-8410655001772,San Miguel,San Miguel,beer_standard,5.4,500.0,can,49,openfoodfacts,1,8410655001772
+off-5010153771615,"San Miguel lager, 5,0%",San Miguel,beer_standard,5.0,440.0,can,198,openfoodfacts,1,5010153771615
+off-4003669018337,Aventinus - Weizen Doppelbock,Schneider Weiße,beer_standard,8.2,330.0,can,214,openfoodfacts,1,4003669018337
+off-4047247110051,Dunkles Starkbier,Schultenbräu,beer_standard,7.0,5000.0,bottle,285,openfoodfacts,1,4047247110051
+off-7310401054070,Lucky bait,Spendrups,beer_standard,5.4,330.0,can,168,openfoodfacts,1,7310401054070
+off-5411663060020,BLE 33CL BIERE ST STEFANUS,St Stefanus,beer_standard,7.0,330.0,can,205,openfoodfacts,1,5411663060020
+off-54079021,St. Bernardus Abt 12,St. Bernardus,beer_standard,10.0,330.0,can,244,openfoodfacts,1,54079021
+off-8480000664662,Cerveza clásica,Steinburg,beer_standard,4.8,1000.0,bottle,420,openfoodfacts,1,8480000664662
+off-5410228312307,stew and dumplings,Stella Artois,beer_standard,5.0,440.0,can,180,openfoodfacts,1,5410228312307
+off-4014807202600,Stark-Bier,Störtebeker,beer_standard,7.5,500.0,can,335,openfoodfacts,1,4014807202600
+off-5010039200208,Tennent’s Super Birra doppio malto,Tennent's,beer_standard,9.0,275.0,can,201,openfoodfacts,1,5010039200208
+off-5902746320020,Warka Piwo jasne,Warka,beer_standard,5.2,500.0,can,205,openfoodfacts,1,5902746320020
+off-4000856005446,Warsteiner Pilsner,Warsteiner,beer_standard,4.8,500.0,can,210,openfoodfacts,1,4000856005446
+off-3080216036182,1664 12x25cl 1664 blanc 5.0 degre alcool,1664,beer_wheat,5.0,3000.0,bottle,112,openfoodfacts,1,3080216036182
+off-3080216048185,1664 6x25cl 1664 blanc sans alcool 0.4 degre alcool,1664,beer_wheat,0.4,250.0,can,88,openfoodfacts,1,3080216048185
+off-3119789827597,Bière blanche,Affligem,beer_wheat,4.8,250.0,can,112,openfoodfacts,1,3119789827597
+off-3080216034676,Grimbergen Blanche,Alken-Maes,beer_wheat,6.0,330.0,can,168,openfoodfacts,1,3080216034676
+off-8712000059286,Radler 2.0,Amstel,beer_wheat,2.0,330.0,can,119,openfoodfacts,1,8712000059286
+off-3596710481026,Sterling rafraichissant Panaché saveur grenadine,Auchan,beer_wheat,0.4,1500.0,bottle,525,openfoodfacts,1,3596710481026
+off-42149996,Birra Beck's,Beck's,beer_wheat,5.0,330.0,can,125,openfoodfacts,1,42149996
+off-5411633250055,"Bouteille De Bière Namur Blanche 4,5°",Brasserie du Bocq,beer_wheat,4.5,250.0,can,115,openfoodfacts,1,5411633250055
+off-3119780259847,Bière Blanche Citron & fleur de sureau,Edelweiss,beer_wheat,4.0,250.0,can,150,openfoodfacts,1,3119780259847
+off-3119780259816,Fruits des Bois Fleur de Sureau,Edelweiss,beer_wheat,4.0,250.0,can,122,openfoodfacts,1,3119780259816
+off-4072700006152,Birra,Franziskaner,beer_wheat,5.0,500.0,can,215,openfoodfacts,1,4072700006152
+off-4072700802518,Franziskaner Hefe-Weissbier Leicht,Franziskaner,beer_wheat,2.9,500.0,can,120,openfoodfacts,1,4072700802518
+off-4072700803829,Hefe-Weißbier naturtrüb,Franziskaner,beer_wheat,5.0,5000.0,bottle,2150,openfoodfacts,1,4072700803829
+off-4072700001188,PREMIUM WEISSBIER DUNKEL,Franziskaner,beer_wheat,5.0,500.0,can,230,openfoodfacts,1,4072700001188
+off-3080216017754,Grimbergen Bière d'Abbaye 6X25CL GRIMBERGEN BLANCHE 6.0 DEGRE ALCOOL,GRIMBERGEN,beer_wheat,6.0,1500.0,bottle,128,openfoodfacts,1,3080216017754
+off-4066600641964,Weißbier Paulaner,Gesamt,beer_wheat,4.4,500.0,can,42,openfoodfacts,1,4066600641964
+off-5410228223764,"BLE 6X25CL HOEGAARDEN 4,9% BLC",Hoegaarden,beer_wheat,4.9,250.0,can,112,openfoodfacts,1,5410228223764
+off-5410228223740,"Bière blanche belge, 4.9% vol.",Hoegaarden,beer_wheat,4.9,250.0,can,112,openfoodfacts,1,5410228223740
+off-5410228158424,Blanche,Hoegaarden,beer_wheat,4.9,750.0,bottle,132,openfoodfacts,1,5410228158424
+off-4600721021566,"Hoegaarden hveteøl, 4,9%",Hoegaarden,beer_wheat,1.11,440.0,can,194,openfoodfacts,1,4600721021566
+off-5410228141662,Kriek Original,InBev Belgium,beer_wheat,5.1,250.0,can,122,openfoodfacts,1,5410228141662
+off-4061458279093,Weissbier Alkoholfrei,KARLSKRONE,beer_wheat,0.49,500.0,can,135,openfoodfacts,1,4061458279093
+off-3250393073519,Panaché 10x25 cl <0.5%,Kingsbräu,beer_wheat,0.3,2500.0,bottle,54,openfoodfacts,1,3250393073519
+off-4003304122009,König Ludwig Dunkel,König Ludwig Brauerei,beer_wheat,5.5,500.0,can,235,openfoodfacts,1,4003304122009
+off-4003304142205,König Ludwig Weissbier hell,König Ludwig Brauerei,beer_wheat,5.5,5000.0,bottle,2300,openfoodfacts,1,4003304142205
+off-4012852001629,Lammsbräu Weiße,Lammsbräu,beer_wheat,0.5,500.0,can,135,openfoodfacts,1,4012852001629
+off-5410228233626,Leffe Ruby,Leffe,beer_wheat,5.0,330.0,can,182,openfoodfacts,1,5410228233626
+off-5411223030043,Pecheresse,Lindemans,beer_wheat,2.5,250.0,can,132,openfoodfacts,1,5411223030043
+off-3564700721339,"Bière blanche 4,5% vol",Marque Repère,beer_wheat,4.5,500.0,can,248,openfoodfacts,1,3564700721339
+off-5411656050977,Kriek Lambic,Mort Subite,beer_wheat,4.0,250.0,can,140,openfoodfacts,1,5411656050977
+off-5411656052278,Lambic Gueuze - Bière assemblage de lambics,Mort Subite,beer_wheat,4.5,330.0,can,158,openfoodfacts,1,5411656052278
+off-5411656050991,Witte Lambic,Mort Subite,beer_wheat,5.5,250.0,can,112,openfoodfacts,1,5411656050991
+off-80067931,Nastro azzuro,Nastro azzuro,beer_wheat,5.1,660.0,bottle,277,openfoodfacts,1,80067931
+off-3760029980109,"Biere blanche NINKASI, 5.4°",Ninkasi,beer_wheat,4.8,750.0,bottle,8,openfoodfacts,1,3760029980109
+off-4014086010309,Hefeweißbier KISTE,Oettinger,beer_wheat,4.9,500.0,can,205,openfoodfacts,1,4014086010309
+off-4066600641919,Paulaner Hefe weißbier Alkoholfrei,Paulaner,beer_wheat,0.5,500.0,can,115,openfoodfacts,1,4066600641919
+off-4066600941972,Weißbier Dunkel,Paulaner,beer_wheat,5.3,500.0,can,205,openfoodfacts,1,4066600941972
+off-4003304086004,König Ludwig Weissbier Naturtrüb,Prinz Luipold Brauerei,beer_wheat,5.5,500.0,can,230,openfoodfacts,1,4003304086004
+off-4003669016258,Bière blanche,Schneider Weisse,beer_wheat,5.4,500.0,can,210,openfoodfacts,1,4003669016258
+off-4003669016203,"Schneider Weisse, Weissbier, Original",Schneider Weisse,beer_wheat,5.4,500.0,can,210,openfoodfacts,1,4003669016203
+off-4053400258515,Schöfferhofer Weizen-Mix - Grapefruit,Schöfferhofer,beer_wheat,2.5,330.0,can,132,openfoodfacts,1,4053400258515
+off-4053400271729,Weizen-Mix Grapefruit,Schöfferhofer,beer_wheat,2.5,5000.0,bottle,2000,openfoodfacts,1,4053400271729
+off-8480000664938,Shandy sabor a limón,Steinburg,beer_wheat,1.0,500.0,can,185,openfoodfacts,1,8480000664938
+off-3410280140308,Panaché 10x25 cl <0.5%,Top budget,beer_wheat,0.3,2500.0,bottle,54,openfoodfacts,1,3410280140308
+off-4066600298113,weissbier,paulaner,beer_wheat,5.5,5000.0,bottle,2100,openfoodfacts,1,4066600298113
+off-3254560032637,Muscat de Rivesaltes,Auchan,wine_fortified,15.5,750.0,bottle,79,openfoodfacts,1,3254560032637
+off-3596710495771,Pineau des Charentes blanc 17% - Appellation Pineau des Charentes Contrôlée,Auchan,wine_fortified,17.0,750.0,bottle,95,openfoodfacts,1,3596710495771
+off-3250390839330,Rivesaltes tuilé 16% vol. 75cl,Itineraire de nos regions,wine_fortified,12.6,750.0,bottle,953,openfoodfacts,1,3250390839330
+off-5027882940403,tonic wine,buckfast,wine_fortified,15.0,750.0,bottle,8,openfoodfacts,1,5027882940403
+off-8009620828126,Vin château jussas,CANTINA DI ORA,wine_red,14.0,750.0,bottle,638,openfoodfacts,1,8009620828126
+off-8410441211002,BRILLANTE COLOR CEREZA. AROMAS A FRUTAS DEL BOSQUE,Faustino VII,wine_red,13.5,750.0,bottle,615,openfoodfacts,1,8410441211002
+off-3263286349226,Gd Sud Merlot IGP Oc Rood,Grand sud,wine_red,13.0,250.0,can,200,openfoodfacts,1,3263286349226
+off-3175529653789,Vin rouge,La Villageoise,wine_red,12.0,250.0,can,158,openfoodfacts,1,3175529653789
+off-3380330003122,Vin,Les Terrelles,wine_red,13.5,750.0,bottle,585,openfoodfacts,1,3380330003122
+off-00155991,Red mulled wine,Marks & Spencer,wine_red,11.0,750.0,bottle,158,openfoodfacts,1,00155991
+off-3770028387182,Gamay au naturel,Romain Paire,wine_red,12.5,750.0,bottle,592,openfoodfacts,1,3770028387182
+off-5053526022464,Fruity Red Wine,Tesco,wine_red,10.0,750.0,bottle,450,openfoodfacts,1,5053526022464
+off-5601989001412,Herdade do Esporão,herdade-do-esporao,wine_red,13.5,750.0,bottle,22,openfoodfacts,1,5601989001412
+off-8000570032007,Prosecco,Bacardi,wine_sparkling,11.0,750.0,bottle,518,openfoodfacts,1,8000570032007
+off-3175529636799,"Méditerrannée IGP, rosé",Les Calandières,wine_sparkling,13.0,750.0,bottle,30,openfoodfacts,1,3175529636799
+off-80272670,Tavernello bianco,Cantine Caviro,wine_white,10.5,250.0,can,79,openfoodfacts,1,80272670
+off-8480010111255,Vino blanco,Eroski,wine_white,11.0,1000.0,bottle,66,openfoodfacts,1,8480010111255
+off-3250391236985,Sauvignon,Expert club,wine_white,12.0,375.0,can,236,openfoodfacts,1,3250391236985
+off-3250390167075,Bgne Aligot.blc E.club Mi,Expert-club,wine_white,12.0,750.0,bottle,14,openfoodfacts,1,3250390167075
+off-8410384008370,"Mederaño Blanco - 2022, Spanien",Freixenet,wine_white,11.5,750.0,bottle,540,openfoodfacts,1,8410384008370
+off-5400141032154,Kalamundi chardonnay,KALAMUNDI,wine_white,13.0,3000.0,bottle,2010,openfoodfacts,1,5400141032154
+off-5998623592246,Grüner Veltliner,Villa Ilona,wine_white,12.5,750.0,bottle,555,openfoodfacts,1,5998623592246
