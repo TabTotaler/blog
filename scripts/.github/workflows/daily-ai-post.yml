@@ -1,0 +1,32 @@
+name: Daily AI Drink Blog Post
+
+on:
+  schedule:
+    - cron: '0 9 * * *' # Runs automatically every day at 9:00 AM UTC
+  workflow_dispatch:     # Allows you to click a button to test-run it anytime
+
+permissions:
+  contents: write        # Required so the action can commit the new markdown file
+
+jobs:
+  generate-post:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Run AI Blog Generator Script
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node scripts/generate-post.js
+
+      - name: Commit and push new blog post
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "🤖 AI Agent: Published new daily drink blog post"
+          branch: main
