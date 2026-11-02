@@ -49,9 +49,9 @@ function getFullName(drink) {
   return drink.brand ? `${drink.brand} ${drink.name}` : drink.name;
 }
 
-// Helper function to call Gemini with retries for temporary 503 errors
+// Helper function to call Gemini with retries and fallback to gemini-3.6-flash
 async function fetchGeminiWithRetry(prompt, maxRetries = 3) {
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent?key=${GEMINI_API_KEY}`;
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key=${GEMINI_API_KEY}`;
   
   for (let attempt = 1; attempt <= maxRetries; attempt++) {
     const response = await fetch(url, {
@@ -71,7 +71,7 @@ async function fetchGeminiWithRetry(prompt, maxRetries = 3) {
     console.warn(`Attempt ${attempt} failed with status ${response.status}:`, JSON.stringify(data));
 
     if (attempt < maxRetries) {
-      const waitTime = attempt * 5000; // Wait 5s, then 10s before retrying
+      const waitTime = attempt * 5000; // Wait 5s, then 10s
       console.log(`Waiting ${waitTime / 1000} seconds before retrying...`);
       await new Promise(resolve => setTimeout(resolve, waitTime));
     } else {
@@ -137,7 +137,7 @@ pubDate: "${new Date().toISOString().split('T')[0]}"
 description: "Discover why ${name1} and ${name2} make an incredible flavor combination, and how to track your drinks responsibly using TabTotaler."
 ---
 
-[Write an engaging, SEO-optimized blog article body explaining why these two beverages complement each other (e.g., a classic beer and a shot pairing, or complementary flavor notes), tasting notes, pacing tips, and a closing call-to-action inviting readers to download the TabTotaler app on iOS and Android.]`;
+[Write an engaging, SEO-optimized blog article body explaining why these two beverages complement each other, tasting notes, pacing tips, and a closing call-to-action inviting readers to download the TabTotaler app on iOS and Android.]`;
 
     usedIndices = [index1, index2];
 
