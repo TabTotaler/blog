@@ -7,7 +7,7 @@ import { defineConfig, fontProviders } from 'astro/config';
 // https://astro.build/config
 export default defineConfig({
     site: 'https://tabtotaler.app',
-    base: '/blog',
+    // REMOVE base: '/blog', entirely so it serves at the root
     integrations: [mdx(), sitemap()],
     fonts: [
         {
