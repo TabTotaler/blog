@@ -101,6 +101,15 @@ async function run() {
   let slug = "";
   let usedIndices = [];
 
+  const linkInstructions = `
+MANDATORY LINK & CALL-TO-ACTION REQUIREMENTS:
+You must naturally include Markdown links in the body or a dedicated closing "About TabTotaler" section pointing to our official platforms. 
+You must use these exact URLs with varied anchor text such as "drink tracker", "BAC tracker", "blood alcohol content calculator", "TabTotaler app", or "TabTotaler main webpage":
+- Main Webpage: [TabTotaler](https://tabtotaler.app) or [TabTotaler webpage](https://tabtotaler.app)
+- iOS App Store: [TabTotaler app](https://apps.apple.com/app/tabtotaler-drink-tracker/id6807932206) or [iOS drink tracker](https://apps.apple.com/app/tabtotaler-drink-tracker/id6807932206)
+- Google Play Store: [BAC tracker](https://play.google.com/store/apps/details?id=app.justcalculators.tracker), [blood alcohol content calculator](https://play.google.com/store/apps/details?id=app.justcalculators.tracker), or [Android app](https://play.google.com/store/apps/details?id=app.justcalculators.tracker)
+`;
+
   if (isPairingPost && drinks.length >= 2) {
     const index1 = 0;
     const index2 = Math.floor(Math.random() * (drinks.length - 1)) + 1;
@@ -130,6 +139,8 @@ Drink 2 Details:
 - ABV: ${drink2.abv ? drink2.abv + '%' : 'N/A'}
 - Calories: ${drink2.kcal ? drink2.kcal + ' kcal' : 'N/A'}
 
+${linkInstructions}
+
 Format the output strictly as Markdown with YAML frontmatter at the top like this:
 ---
 title: "The Ultimate Pairing: ${name1} Meets ${name2}"
@@ -137,7 +148,7 @@ pubDate: "${new Date().toISOString().split('T')[0]}"
 description: "Discover why ${name1} and ${name2} make an incredible flavor combination, and how to track your drinks responsibly using TabTotaler."
 ---
 
-[Write an engaging, SEO-optimized blog article body explaining why these two beverages complement each other, tasting notes, pacing tips, and a closing call-to-action inviting readers to download the TabTotaler app on iOS and Android.]`;
+[Write an engaging, SEO-optimized blog article body explaining why these two beverages complement each other, tasting notes, pacing tips, and include the mandatory CTA links.]`;
 
     usedIndices = [index1, index2];
 
@@ -158,6 +169,8 @@ Drink details:
 - Calories: ${drink.kcal ? drink.kcal + ' kcal' : 'N/A'}
 - Typical Serving: ${drink.servingKind || 'standard pour'}
 
+${linkInstructions}
+
 Format the output strictly as Markdown with YAML frontmatter at the top like this:
 ---
 title: "Everything You Need to Know About ${drinkFullName}"
@@ -165,7 +178,7 @@ pubDate: "${new Date().toISOString().split('T')[0]}"
 description: "Discover the flavor profile, nutritional details, ABV, and serving style of ${drinkFullName} on TabTotaler."
 ---
 
-[Write an engaging, SEO-optimized blog article body including an introduction, profile/flavor notes, nutritional & ABV considerations, best serving suggestions, and a closing call-to-action inviting readers to log and track their drinks with the TabTotaler mobile app on iOS and Android.]`;
+[Write an engaging, SEO-optimized blog article body including an introduction, profile/flavor notes, nutritional & ABV considerations, best serving suggestions, and include the mandatory CTA links.]`;
 
     usedIndices = [0];
   }
