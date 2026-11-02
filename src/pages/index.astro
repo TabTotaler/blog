@@ -1,43 +1,55 @@
 ---
 import { getCollection } from 'astro:content';
-import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
 
+// Fetch all posts from the blog content collection and sort by date
 const posts = (await getCollection('blog')).sort(
-	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+	(a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf()
 );
 ---
 
-<!doctype html>
 <html lang="en">
 	<head>
-		<BaseHead title="TabTotaler Drink Blog" description="Automated beverage guides, cocktail recipes, and pairing metrics." />
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>TabTotaler Drink Blog</title>
 	</head>
-	<body>
-		<Header />
-		<main style="max-width: 800px; margin: 2rem auto; padding: 0 1rem; font-family: sans-serif;">
+	<body class="bg-gray-50 text-gray-900 font-sans antialiased">
+		<main class="max-w-3xl mx-auto px-4 py-12">
+			<header class="mb-12 text-center">
+				<h1 class="text-4xl font-extrabold mb-3">TabTotaler Drink Blog</h1>
+				<p class="text-gray-600 text-lg">Your daily automated guide to drink spotlights, stats, and recipes.</p>
+			</header>
+
 			<section>
-				<h1 style="font-size: 2.5rem; margin-bottom: 0.5rem; color: #111;">TabTotaler Drink Blog</h1>
-				<p style="color: #666; margin-bottom: 2rem; font-size: 1.1rem;">Your daily automated guide to drink spotlights, stats, and recipes.</p>
-				
-				<ul style="padding: 0; list-style: none;">
-					{
-						posts.map((post) => (
-							<li style="margin-bottom: 2.5rem; border-bottom: 1px solid #eaeaea; padding-bottom: 1.5rem;">
-								<a href={`/${post.id}/`} style="text-decoration: none; font-size: 1.5rem; font-weight: bold; color: #0066cc;">
-									{post.data.title}
-								</a>
-								<p style="color: #888; font-size: 0.85rem; margin: 0.4rem 0;">
-									{post.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+				<ul class="space-y-6">
+					{posts.map((post) => (
+						<li>
+							<a 
+								href={`/blog/${post.id}`} 
+								class="block p-6 bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition"
+							>
+								<h2 class="text-2xl font-bold text-gray-900 mb-2">{post.data.title}</h2>
+								<p class="text-sm text-gray-500 mb-3">
+									<time datetime={post.data.pubDate}>
+										{new Date(post.data.pubDate).toLocaleDateString('en-US', {
+											year: 'numeric',
+											month: 'long',
+											day: 'numeric',
+										})}
+									</time>
 								</p>
-								<p style="color: #444; margin-top: 0.5rem; line-height: 1.5;">{post.data.description}</p>
-							</li>
-						))
-					}
+								<p class="text-gray-700 leading-relaxed">{post.data.description}</p>
+							</a>
+						</li>
+					))}
 				</ul>
 			</section>
+
+			<footer class="mt-16 text-center text-sm text-gray-400">
+				<p>&copy; {new Date().getFullYear()} TabTotaler. All rights reserved.</p>
+			</footer>
 		</main>
-		<Footer />
 	</body>
 </html>
