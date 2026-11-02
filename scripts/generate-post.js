@@ -49,6 +49,37 @@ function getFullName(drink) {
   return drink.brand ? `${drink.brand} ${drink.name}` : drink.name;
 }
 
+// Helper function to call Gemini with retries for temporary 503 errors
+async function fetchGeminiWithRetry(prompt, maxRetries = 3) {
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent?key=${GEMINI_API_KEY}`;
+  
+  for (let attempt = 1; attempt <= maxRetries; attempt++) {
+    const response = await fetch(url, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        contents: [{ parts: [{ text: prompt }] }]
+      })
+    });
+
+    const data = await response.json();
+
+    if (response.ok && data.candidates && data.candidates.length > 0) {
+      return data;
+    }
+
+    console.warn(`Attempt ${attempt} failed with status ${response.status}:`, JSON.stringify(data));
+
+    if (attempt < maxRetries) {
+      const waitTime = attempt * 5000; // Wait 5s, then 10s before retrying
+      console.log(`Waiting ${waitTime / 1000} seconds before retrying...`);
+      await new Promise(resolve => setTimeout(resolve, waitTime));
+    } else {
+      throw new Error(`Failed to generate content after ${maxRetries} attempts: ${JSON.stringify(data)}`);
+    }
+  }
+}
+
 async function run() {
   const csvPath = path.join(process.cwd(), 'src', 'data', 'drinks.csv');
   if (!fs.existsSync(csvPath)) {
@@ -64,9 +95,6 @@ async function run() {
     return;
   }
 
-  // Randomly decide post type:
-  // 70% chance: Single Drink Spotlight
-  // 30% chance: Pairing / Combination (e.g. Beer & Shot or Two Drink Comparison)
   const isPairingPost = Math.random() < 0.3;
 
   let prompt = "";
@@ -74,7 +102,6 @@ async function run() {
   let usedIndices = [];
 
   if (isPairingPost && drinks.length >= 2) {
-    // Pick two different drinks for a pairing/comparison post
     const index1 = 0;
     const index2 = Math.floor(Math.random() * (drinks.length - 1)) + 1;
     
@@ -115,7 +142,6 @@ description: "Discover why ${name1} and ${name2} make an incredible flavor combi
     usedIndices = [index1, index2];
 
   } else {
-    // Single Drink Spotlight
     const drink = drinks[0];
     const drinkFullName = getFullName(drink);
     console.log(`Generating Single Drink post for: ${drinkFullName}`);
@@ -144,32 +170,18 @@ description: "Discover the flavor profile, nutritional details, ABV, and serving
     usedIndices = [0];
   }
 
-  // Call Gemini API using the updated gemini-3.8-flash model endpoint
-  const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent?key=${GEMINI_API_KEY}`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      contents: [{ parts: [{ text: prompt }] }]
-    })
-  });
-
-  const data = await response.json();
-  if (!data.candidates || data.candidates.length === 0) {
-    console.error("Failed to generate content from Gemini:", JSON.stringify(data));
-    process.exit(1);
-  }
-
+  const data = await fetchGeminiWithRetry(prompt);
   let markdownContent = data.candidates[0].content.parts[0].text;
 
-  // Clean up any extraneous markdown code fence blocks surrounding the entire output
+  // Clean up code fences
   markdownContent = markdownContent.replace(/^```markdown\s*/i, '').replace(/^```\s*/, '').replace(/\s*```$/, '');
 
-  // Save markdown file to Astro content collection
+  // Save markdown file
   const postPath = path.join(process.cwd(), 'src', 'content', 'blog', `${slug}.md`);
   fs.writeFileSync(postPath, markdownContent, 'utf8');
   console.log(`Saved new post to ${postPath}`);
 
-  // Rotate used drinks to the back of the CSV queue so content stays fresh
+  // Rotate CSV queue
   const headers = Object.keys(drinks[0]);
   usedIndices.sort((a, b) => b - a).forEach(idx => {
     const item = drinks.splice(idx, 1)[0];
