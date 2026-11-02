@@ -189,6 +189,11 @@ description: "Discover the flavor profile, nutritional details, ABV, and serving
   // Clean up code fences
   markdownContent = markdownContent.replace(/^```markdown\s*/i, '').replace(/^```\s*/, '').replace(/\s*```$/, '');
 
+  // Fix any internal markdown links to ensure they use the correct custom domain & /blog path
+  markdownContent = markdownContent
+    .replace(/\]\(\/([a-zA-Z0-9_-]+)\)/g, '](https://tabtotaler.app/blog/$1)')
+    .replace(/\]\(https:\/\/tabtotaler\.github\.io\/blog\//g, '](https://tabtotaler.app/blog/');
+
   // Save markdown file
   const postPath = path.join(process.cwd(), 'src', 'content', 'blog', `${slug}.md`);
   fs.writeFileSync(postPath, markdownContent, 'utf8');
