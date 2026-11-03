@@ -1,12 +1,22 @@
 ---
-import '../styles/global.css'; // Place your style.css here
+import '../styles/global.css';
 
 interface Props {
   title: string;
   description?: string;
+  image?: string;
+  type?: 'website' | 'article';
 }
 
-const { title, description = "TabTotaler Drink Blog — Real pours, standard drinks, and app updates." } = Astro.props;
+const { 
+  title, 
+  description = "TabTotaler Drink Blog — Real pours, standard drinks, and app updates.",
+  image = "/og-default.png",
+  type = "website"
+} = Astro.props;
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const socialImageURL = new URL(image, Astro.site);
 ---
 
 <!DOCTYPE html>
@@ -15,8 +25,35 @@ const { title, description = "TabTotaler Drink Blog — Real pours, standard dri
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{title}</title>
+  <meta name="title" content={title}>
   <meta name="description" content={description}>
-  <link rel="canonical" href={Astro.url}>
+  <link rel="canonical" href={canonicalURL}>
+
+  <!-- Google Site Verification & Analytics -->
+  <meta name="google-site-verification" content="ItOHXD3GOcjUaWprRl9NRlmJ4JbFr_tfQKH1lcu0Yq8" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YPQ348MFQF"></script>
+  <script is:inline>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-YPQ348MFQF');
+  </script>
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content={type}>
+  <meta property="og:url" content={canonicalURL}>
+  <meta property="og:title" content={title}>
+  <meta property="og:description" content={description}>
+  <meta property="og:image" content={socialImageURL}>
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content={canonicalURL}>
+  <meta property="twitter:title" content={title}>
+  <meta property="twitter:description" content={description}>
+  <meta property="twitter:image" content={socialImageURL}>
+
+  <!-- Favicon & Theme -->
   <link rel="icon" href="/favicon.png">
   <meta name="theme-color" content="#100D0B">
 </head>
@@ -24,7 +61,7 @@ const { title, description = "TabTotaler Drink Blog — Real pours, standard dri
   <header class="site-header">
     <div class="wrap header-inner">
       <a class="logo" href="https://tabtotaler.app">
-        <img class="logo-mark" src="https://tabtotaler.app/TabTotalerLogo.png" alt="" width="22" height="22">
+        <img class="logo-mark" src="/TabTotalerLogo.png" alt="" width="22" height="22">
         <span class="logo-word">TabTotaler</span>
       </a>
       <nav>
@@ -42,11 +79,11 @@ const { title, description = "TabTotaler Drink Blog — Real pours, standard dri
   <footer class="site-footer">
     <div class="wrap footer-inner">
       <p class="footer-links">
-        <a href="https://tabtotaler.app/">Drink Tracker</a> · 
+        <a href="https://tabtotaler.app/">Main App</a> · 
         <a href="https://tabtotaler.app/privacy.html">Privacy</a> · 
         <a href="https://tabtotaler.app/terms.html">Terms</a>
       </p>
-      <p>&copy; TabTotaler. All rights reserved.</p>
+      <p>&copy; {new Date().getFullYear()} TabTotaler. All rights reserved.</p>
     </div>
   </footer>
 </body>
