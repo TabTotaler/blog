@@ -1,57 +1,76 @@
 ---
 import Layout from './Layout.astro';
 
-// Support both Markdown frontmatter and standard Astro props
-const { frontmatter, title, description, date, author } = Astro.props;
+const { frontmatter } = Astro.props;
 
-const postTitle = frontmatter?.title || title || "TabTotaler Blog";
-const postDescription = frontmatter?.description || description;
-const postDate = frontmatter?.date || date;
-const postAuthor = frontmatter?.author || author || 'TabTotaler Team';
+// Fallback safety if frontmatter properties are missing
+const title = frontmatter?.title || 'TabTotaler Drink Blog';
+const description = frontmatter?.description || 'Real pours, standard drinks, and honest tracking.';
+const pubDate = frontmatter?.pubDate;
 ---
 
-<Layout title={`${postTitle} — TabTotaler Blog`} description={postDescription}>
-  <article class="wrap legal-page">
-    {postDate && (
+<Layout title={title} description={description}>
+  <article class="wrap legal-page" style="max-width: 768px; padding-top: 48px; padding-bottom: 80px;">
+    
+    <!-- Meta / Date -->
+    {pubDate && (
       <p class="eyebrow">
-        {new Date(postDate).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
+        {new Date(pubDate).toLocaleDateString('en-US', {
+          month: 'long',
+          day: 'numeric',
+          year: 'numeric',
+        })}
       </p>
     )}
-    <h1>{postTitle}</h1>
-    {postAuthor && <p class="legal-updated" style="margin-bottom: 36px;">By {postAuthor}</p>}
-    
-    <div class="blog-content" style="color: var(--dim); line-height: 1.75;">
+
+    <!-- Post Title -->
+    <h1 style="margin-bottom: 24px; font-size: clamp(2rem, 4vw, 2.75rem);">{title}</h1>
+
+    <!-- Optional description/lede -->
+    {description && (
+      <p class="lede" style="margin-bottom: 36px; font-size: 1.15rem;">{description}</p>
+    )}
+
+    <hr style="border: none; border-top: 1px solid var(--line); margin-bottom: 40px;" />
+
+    <!-- Main Markdown/MDX Content Area -->
+    <div class="blog-content" style="color: var(--dim); line-height: 1.8; font-size: 1.05rem;">
       <slot />
     </div>
 
-    <div class="legal-back">
-      <a href="/" class="store-btn store-btn-secondary">← Back to all posts</a>
+    <!-- Back to Home Button -->
+    <div style="margin-top: 56px;">
+      <a href="/" class="store-btn store-btn-secondary">← Back to Blog Home</a>
     </div>
+
   </article>
 </Layout>
 
 <style>
+  /* Extra styling for Markdown generated tags inside the blog content */
   .blog-content :global(h2) {
-    font-size: 1.4rem;
-    color: var(--brass);
-    margin: 36px 0 12px;
+    color: var(--paper);
+    margin-top: 40px;
+    margin-bottom: 16px;
+    font-size: 1.5rem;
   }
   .blog-content :global(h3) {
-    font-size: 1.15rem;
     color: var(--paper);
-    margin: 24px 0 8px;
+    margin-top: 32px;
+    margin-bottom: 12px;
+    font-size: 1.25rem;
   }
   .blog-content :global(p) {
     margin-bottom: 20px;
   }
-  .blog-content :global(ul) {
+  .blog-content :global(strong) {
+    color: var(--paper);
+  }
+  .blog-content :global(ul), .blog-content :global(ol) {
     margin-bottom: 20px;
-    padding-left: 20px;
+    padding-left: 24px;
   }
   .blog-content :global(li) {
     margin-bottom: 8px;
-  }
-  .blog-content :global(strong) {
-    color: var(--paper);
   }
 </style>
