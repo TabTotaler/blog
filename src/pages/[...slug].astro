@@ -4,10 +4,14 @@ import BlogPost from '../layouts/BlogPost.astro';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
-  return posts.map((post) => ({
-    params: { slug: post.id },
-    props: { post },
-  }));
+  return posts.map((post) => {
+    // Strips the extension so the sitemap plugin recognizes it as an HTML page
+    const cleanSlug = post.slug || post.id.replace(/\.[^/.]+$/, "");
+    return {
+      params: { slug: cleanSlug },
+      props: { post },
+    };
+  });
 }
 
 const { post } = Astro.props;
