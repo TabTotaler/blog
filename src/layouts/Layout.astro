@@ -1,0 +1,53 @@
+---
+import '../styles/global.css'; // Place your style.css here
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = "TabTotaler Drink Blog — Real pours, standard drinks, and app updates." } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{title}</title>
+  <meta name="description" content={description}>
+  <link rel="canonical" href={Astro.url}>
+  <link rel="icon" href="/favicon.png">
+  <meta name="theme-color" content="#100D0B">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="logo" href="https://tabtotaler.app">
+        <img class="logo-mark" src="/TabTotalerLogo.png" alt="" width="22" height="22">
+        <span class="logo-word">TabTotaler</span>
+      </a>
+      <nav>
+        <a href="/">Blog Home</a>
+        <a href="https://tabtotaler.app/#features">Features</a>
+        <a href="https://tabtotaler.app/#download" class="nav-cta">Download App</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <slot />
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p class="footer-links">
+        <a href="https://tabtotaler.app/">Main App</a> · 
+        <a href="https://tabtotaler.app/privacy.html">Privacy</a> · 
+        <a href="https://tabtotaler.app/terms.html">Terms</a>
+      </p>
+      <p>&copy; TabTotaler. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
