@@ -1,5 +1,4 @@
 id,name,brand,category,abv,defaultMl,servingKind,kcal,source,version,barcodes
-"bud-light","Bud Light","","beer_light","4.2","354.9","can","110","curated","1",""
 "coors-light","Light","Coors","beer_light","4.2","354.9","can","102","curated","1",""
 "miller-lite","Miller Lite","","beer_light","4.2","354.9","can","96","curated","1",""
 "michelob-ultra","Ultra","Michelob","beer_light","3.5","354.9","can","95","curated","1",""
@@ -1069,3 +1068,4 @@ id,name,brand,category,abv,defaultMl,servingKind,kcal,source,version,barcodes
 "off-5998623592246","Grüner Veltliner","Villa Ilona","wine_white","12.5","750.0","bottle","555","openfoodfacts","1","5998623592246"
 "four-loko","Four Loko","","rtd","12.0","695.0","can","783","curated","1",""
 "light-beer-4-oz-flight-pour","Light Beer — 4 oz flight pour","","beer_light","4.2","118.3","flight","32","curated","1",""
+"bud-light","Bud Light","","beer_light","4.2","354.9","can","110","curated","1",""
