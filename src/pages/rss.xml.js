@@ -8,11 +8,14 @@ export async function GET(context) {
     title: 'TabTotaler Drink Blog',
     description: 'Your daily automated guide to drink spotlights, stats, and recipes.',
     site: context.site,
-    items: posts.map((post) => ({
-      title: post.data.title,
-      pubDate: post.data.pubDate,
-      description: post.data.description,
-      link: `/${post.id}/`,
-    })),
+    items: posts.map((post) => {
+      const cleanSlug = post.slug || post.id.replace(/\.[^/.]+$/, "");
+      return {
+        title: post.data.title,
+        pubDate: post.data.pubDate,
+        description: post.data.description,
+        link: `/${cleanSlug}/`,
+      };
+    }),
   });
 }
