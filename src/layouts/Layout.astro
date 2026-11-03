@@ -11,7 +11,7 @@ interface Props {
 const { 
   title, 
   description = "TabTotaler Drink Blog — Real pours, standard drinks, and app updates.",
-  image = "https://tabtotaler.app/TabTotalerLogo.png",
+  image = "/og-default.png",
   type = "website"
 } = Astro.props;
 
@@ -61,7 +61,7 @@ const socialImageURL = new URL(image, Astro.site);
   <header class="site-header">
     <div class="wrap header-inner">
       <a class="logo" href="https://tabtotaler.app">
-        <img class="logo-mark" src="/TabTotalerLogo.png" alt="" width="22" height="22">
+        <img class="logo-mark" src="https://tabtotaler.app/TabTotalerLogo.png" alt="" width="22" height="22">
         <span class="logo-word">TabTotaler</span>
       </a>
       <nav>
