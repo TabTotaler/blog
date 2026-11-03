@@ -1,0 +1,36 @@
+---
+import Layout from '../layouts/Layout.astro';
+const posts = await Astro.glob('./posts/*.md'); // Or your content collection setup
+posts.sort((a, b) => new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf());
+---
+
+<Layout title="TabTotaler Blog">
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow">Drink Blog &amp; Updates</p>
+      <h1>Notes from the Bar.</h1>
+      <p class="lede">Deep dives into standard drinks, BAC science updates, session tips, and release notes.</p>
+    </div>
+  </section>
+
+  <section class="features" style="border-top: none;">
+    <div class="wrap">
+      <div class="feature-grid">
+        {posts.map(post => (
+          <article class="plan-card" style="display: flex; flex-direction: column; justify-content: space-between;">
+            <div>
+              <p class="plan-tier">{new Date(post.frontmatter.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</p>
+              <h3 style="font-size: 1.2rem; margin-bottom: 10px;">
+                <a href={post.url} style="color: var(--paper);">{post.frontmatter.title}</a>
+              </h3>
+              <p>{post.frontmatter.description}</p>
+            </div>
+            <div style="margin-top: 20px;">
+              <a href={post.url} class="store-btn store-btn-secondary" style="padding: 8px 16px; font-size: 0.68rem;">Read Article →</a>
+            </div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+</Layout>
