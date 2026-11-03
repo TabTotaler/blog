@@ -1,14 +1,24 @@
 ---
 import Layout from './Layout.astro';
 
-const { frontmatter } = Astro.props;
+// Support both Markdown frontmatter and standard Astro props
+const { frontmatter, title, description, date, author } = Astro.props;
+
+const postTitle = frontmatter?.title || title || "TabTotaler Blog";
+const postDescription = frontmatter?.description || description;
+const postDate = frontmatter?.date || date;
+const postAuthor = frontmatter?.author || author || 'TabTotaler Team';
 ---
 
-<Layout title={`${frontmatter.title} — TabTotaler Blog`} description={frontmatter.description}>
+<Layout title={`${postTitle} — TabTotaler Blog`} description={postDescription}>
   <article class="wrap legal-page">
-    <p class="eyebrow">{new Date(frontmatter.date).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</p>
-    <h1>{frontmatter.title}</h1>
-    <p class="legal-updated" style="margin-bottom: 36px;">By {frontmatter.author || 'TabTotaler Team'}</p>
+    {postDate && (
+      <p class="eyebrow">
+        {new Date(postDate).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
+      </p>
+    )}
+    <h1>{postTitle}</h1>
+    {postAuthor && <p class="legal-updated" style="margin-bottom: 36px;">By {postAuthor}</p>}
     
     <div class="blog-content" style="color: var(--dim); line-height: 1.75;">
       <slot />
@@ -21,7 +31,6 @@ const { frontmatter } = Astro.props;
 </Layout>
 
 <style>
-  /* Extra styling for Markdown headings and elements within the post */
   .blog-content :global(h2) {
     font-size: 1.4rem;
     color: var(--brass);
@@ -46,6 +55,3 @@ const { frontmatter } = Astro.props;
     color: var(--paper);
   }
 </style>
-		<Footer />
-	</body>
-</html>
