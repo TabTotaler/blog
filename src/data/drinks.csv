@@ -1,5 +1,4 @@
 id,name,brand,category,abv,defaultMl,servingKind,kcal,source,version,barcodes
-"miller-lite","Miller Lite","","beer_light","4.2","354.9","can","96","curated","1",""
 "michelob-ultra","Ultra","Michelob","beer_light","3.5","354.9","can","95","curated","1",""
 "natural-light","Natural Light","","beer_light","4.0","354.9","can","95","curated","1",""
 "keystone-light","Light","Keystone","beer_light","4.1","354.9","can","104","curated","1",""
@@ -569,7 +568,6 @@ id,name,brand,category,abv,defaultMl,servingKind,kcal,source,version,barcodes
 "stinger","Stinger","","cocktail_classic","35.6","81.3","cocktail","207","curated","1",""
 "brandy-alexander","Brandy Alexander","","cocktail_classic","21.3","88.7","cocktail","264","curated","1",""
 "grasshopper","Grasshopper","","cocktail_classic","16.0","88.7","cocktail","305","curated","1",""
-"mint-julep","Mint Julep","","cocktail_classic","37.5","88.7","cocktail","212","curated","1",""
 "whiskey-smash","Whiskey Smash","","cocktail_classic","25.7","103.5","cocktail","198","curated","1",""
 "gold-rush","Gold Rush","","cocktail_classic","25.7","103.5","cocktail","214","curated","1",""
 "penicillin","Penicillin","","cocktail_classic","22.9","103.5","cocktail","198","curated","1",""
@@ -1069,3 +1067,5 @@ id,name,brand,category,abv,defaultMl,servingKind,kcal,source,version,barcodes
 "light-beer-4-oz-flight-pour","Light Beer — 4 oz flight pour","","beer_light","4.2","118.3","flight","32","curated","1",""
 "bud-light","Bud Light","","beer_light","4.2","354.9","can","110","curated","1",""
 "coors-light","Light","Coors","beer_light","4.2","354.9","can","102","curated","1",""
+"mint-julep","Mint Julep","","cocktail_classic","37.5","88.7","cocktail","212","curated","1",""
+"miller-lite","Miller Lite","","beer_light","4.2","354.9","can","96","curated","1",""
