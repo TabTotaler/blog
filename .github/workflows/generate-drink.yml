@@ -1,15 +1,18 @@
-name: Generate Daily Drink Post
+name: Generate Daily Drink Post & Deploy
 
 on:
   schedule:
     - cron: '0 8 * * *' # Runs daily at 8 AM UTC
   workflow_dispatch: # Enables the manual "Run workflow" button
 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
-  generate:
+  generate-and-deploy:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -32,3 +35,14 @@ jobs:
         with:
           commit_message: "🤖 Add automated AI drink spotlight post"
           branch: main
+
+      - name: Build Astro site
+        run: npm run build
+
+      - name: Upload page artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
