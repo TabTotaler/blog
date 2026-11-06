@@ -2,56 +2,58 @@ name: Generate Daily Drink Post & Deploy
 
 on:
   schedule:
-    - cron: '0 8 * * *' # Runs daily at 8 AM UTC
-  workflow_dispatch: # Enables the manual "Run workflow" button
+    - cron: '0 8 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
   pages: write
   id-token: write
 
+concurrency:
+  group: generate-drink
+  cancel-in-progress: false
+
 jobs:
   generate-and-deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # Pulls full git history so rebasing works cleanly
+          ref: main
+          fetch-depth: 0
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: '22'
           cache: 'npm'
 
-      - name: Install dependencies
-        run: npm install
+      - run: npm install
 
-      - name: Run script to generate drink post
+      - name: Generate drink post
         run: node scripts/generate-post.js
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
-      - name: Configure Git User
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
       - name: Commit and push generated post
         run: |
-          git pull origin main --rebase || true
-          git add .
-          git diff --staged --quiet || git commit -m "🤖 Add automated AI drink spotlight post"
-          git push origin main
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if ! git diff --staged --quiet; then
+            git commit -m "🤖 Add automated AI drink spotlight post"
+            git pull --rebase origin main
+            git push origin main
+          fi
 
-      - name: Build Astro site
-        run: npm run build
+      - run: npm run build
 
-      - name: Upload page artifact
-        uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
 
-      - name: Deploy to GitHub Pages
+      - id: deployment
         uses: actions/deploy-pages@v4
