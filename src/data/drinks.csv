@@ -1,5 +1,4 @@
 id,name,brand,category,abv,defaultMl,servingKind,kcal,source,version,barcodes
-"michelob-ultra","Ultra","Michelob","beer_light","3.5","354.9","can","95","curated","1",""
 "natural-light","Natural Light","","beer_light","4.0","354.9","can","95","curated","1",""
 "keystone-light","Light","Keystone","beer_light","4.1","354.9","can","104","curated","1",""
 "busch-light","Light","Busch","beer_light","4.1","354.9","can","100","curated","1",""
@@ -1069,3 +1068,4 @@ id,name,brand,category,abv,defaultMl,servingKind,kcal,source,version,barcodes
 "coors-light","Light","Coors","beer_light","4.2","354.9","can","102","curated","1",""
 "mint-julep","Mint Julep","","cocktail_classic","37.5","88.7","cocktail","212","curated","1",""
 "miller-lite","Miller Lite","","beer_light","4.2","354.9","can","96","curated","1",""
+"michelob-ultra","Ultra","Michelob","beer_light","3.5","354.9","can","95","curated","1",""
