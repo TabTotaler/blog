@@ -1,5 +1,4 @@
 id,name,brand,category,abv,defaultMl,servingKind,kcal,source,version,barcodes
-"natural-light","Natural Light","","beer_light","4.0","354.9","can","95","curated","1",""
 "keystone-light","Light","Keystone","beer_light","4.1","354.9","can","104","curated","1",""
 "busch-light","Light","Busch","beer_light","4.1","354.9","can","100","curated","1",""
 "pabst-blue-ribbon-light","Light","Pabst Blue Ribbon","beer_light","3.8","354.9","can","84","curated","1",""
@@ -934,7 +933,6 @@ id,name,brand,category,abv,defaultMl,servingKind,kcal,source,version,barcodes
 "off-3080216003306","Grimbergen Bière d'Abbaye 6X25CL GRIMBERGEN AMBREE 6.5 DEGRE ALCOOL","GRIMBERGEN","beer_standard","6.5","1500.0","bottle","14","openfoodfacts","1","3080216003306"
 "off-54004207","Special export","GUINNESS","beer_standard","8.0","330.0","can","205","openfoodfacts","1","54004207"
 "off-0083741150012","Grolsch","Grolsch","beer_standard","5.0","500.0","can","200","openfoodfacts","1","0083741150012"
-"off-50213245","Draught Stout","Guinness","beer_standard","4.2","330.0","can","38","openfoodfacts","1","50213245"
 "off-9313419522225","Super Dry Low Carb","HAHN","beer_standard","1.39","330.0","can","99","openfoodfacts","1","9313419522225"
 "off-9313419522997","SuperDry GF Gluten Free","HAHN","beer_standard","1.27","330.0","can","99","openfoodfacts","1","9313419522997"
 "off-54085190","Tongerlo Lux Blond","Haacht","beer_standard","6.0","330.0","can","175","openfoodfacts","1","54085190"
@@ -1069,3 +1067,5 @@ id,name,brand,category,abv,defaultMl,servingKind,kcal,source,version,barcodes
 "mint-julep","Mint Julep","","cocktail_classic","37.5","88.7","cocktail","212","curated","1",""
 "miller-lite","Miller Lite","","beer_light","4.2","354.9","can","96","curated","1",""
 "michelob-ultra","Ultra","Michelob","beer_light","3.5","354.9","can","95","curated","1",""
+"off-50213245","Draught Stout","Guinness","beer_standard","4.2","330.0","can","38","openfoodfacts","1","50213245"
+"natural-light","Natural Light","","beer_light","4.0","354.9","can","95","curated","1",""
