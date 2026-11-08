@@ -1,5 +1,4 @@
 id,name,brand,category,abv,defaultMl,servingKind,kcal,source,version,barcodes
-"busch-light","Light","Busch","beer_light","4.1","354.9","can","100","curated","1",""
 "pabst-blue-ribbon-light","Light","Pabst Blue Ribbon","beer_light","3.8","354.9","can","84","curated","1",""
 "oskar-blues-dale-s-light-lager","Dale's Light Lager","Oskar Blues","beer_light","4.2","354.9","can","110","curated","1",""
 "standard-lager-ale-4-oz-flight-pour","Standard Lager/Ale — 4 oz flight pour","","beer_standard","5.0","118.3","flight","45","curated","1",""
@@ -251,7 +250,6 @@ id,name,brand,category,abv,defaultMl,servingKind,kcal,source,version,barcodes
 "jagermeister","Jägermeister","","liqueur","35.0","44.4","shot","103","curated","1",""
 "malibu-coconut","Coconut","Malibu","liqueur","21.0","44.4","shot","88","curated","1",""
 "triple-sec","Triple Sec","","liqueur","30.0","44.4","shot","130","curated","1",""
-"cointreau","Cointreau","","liqueur","40.0","44.4","shot","110","curated","1",""
 "grand-marnier","Grand Marnier","","liqueur","40.0","44.4","shot","115","curated","1",""
 "chambord","Chambord","","liqueur","16.5","44.4","shot","107","curated","1",""
 "st-germain-elderflower","Elderflower","St-Germain","liqueur","20.0","44.4","shot","49","curated","1",""
@@ -1069,3 +1067,5 @@ id,name,brand,category,abv,defaultMl,servingKind,kcal,source,version,barcodes
 "off-50213245","Draught Stout","Guinness","beer_standard","4.2","330.0","can","38","openfoodfacts","1","50213245"
 "natural-light","Natural Light","","beer_light","4.0","354.9","can","95","curated","1",""
 "keystone-light","Light","Keystone","beer_light","4.1","354.9","can","104","curated","1",""
+"cointreau","Cointreau","","liqueur","40.0","44.4","shot","110","curated","1",""
+"busch-light","Light","Busch","beer_light","4.1","354.9","can","100","curated","1",""
