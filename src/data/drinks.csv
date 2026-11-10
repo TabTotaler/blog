@@ -1,5 +1,4 @@
 id,name,brand,category,abv,defaultMl,servingKind,kcal,source,version,barcodes
-"pabst-blue-ribbon-light","Light","Pabst Blue Ribbon","beer_light","3.8","354.9","can","84","curated","1",""
 "oskar-blues-dale-s-light-lager","Dale's Light Lager","Oskar Blues","beer_light","4.2","354.9","can","110","curated","1",""
 "standard-lager-ale-4-oz-flight-pour","Standard Lager/Ale — 4 oz flight pour","","beer_standard","5.0","118.3","flight","45","curated","1",""
 "budweiser","Budweiser","","beer_standard","5.0","354.9","can","145","curated","1",""
@@ -1069,3 +1068,4 @@ id,name,brand,category,abv,defaultMl,servingKind,kcal,source,version,barcodes
 "keystone-light","Light","Keystone","beer_light","4.1","354.9","can","104","curated","1",""
 "cointreau","Cointreau","","liqueur","40.0","44.4","shot","110","curated","1",""
 "busch-light","Light","Busch","beer_light","4.1","354.9","can","100","curated","1",""
+"pabst-blue-ribbon-light","Light","Pabst Blue Ribbon","beer_light","3.8","354.9","can","84","curated","1",""
