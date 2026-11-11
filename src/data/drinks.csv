@@ -1,5 +1,4 @@
 id,name,brand,category,abv,defaultMl,servingKind,kcal,source,version,barcodes
-"standard-lager-ale-4-oz-flight-pour","Standard Lager/Ale — 4 oz flight pour","","beer_standard","5.0","118.3","flight","45","curated","1",""
 "budweiser","Budweiser","","beer_standard","5.0","354.9","can","145","curated","1",""
 "miller-high-life","Miller High Life","","beer_standard","5.0","354.9","can","141","curated","1",""
 "coors-banquet","Banquet","Coors","beer_standard","5.0","354.9","can","149","curated","1",""
@@ -280,7 +279,6 @@ id,name,brand,category,abv,defaultMl,servingKind,kcal,source,version,barcodes
 "sidecar","Sidecar","","cocktail_classic","20.0","118.3","cocktail","157","curated","1",""
 "between-the-sheets","Between the Sheets","","cocktail_classic","22.0","118.3","cocktail","173","curated","1",""
 "amaretto-sour","Amaretto Sour","","cocktail_classic","20.0","118.3","cocktail","157","curated","1",""
-"last-word","Last Word","","cocktail_classic","25.0","103.5","cocktail","172","curated","1",""
 "margarita","Margarita","","cocktail_popular","15.0","118.3","cocktail","165","curated","1",""
 "mojito","Mojito","","cocktail_popular","12.0","147.9","cocktail","168","curated","1",""
 "cosmopolitan","Cosmopolitan","","cocktail_popular","20.0","118.3","cocktail","150","curated","1",""
@@ -1069,3 +1067,5 @@ id,name,brand,category,abv,defaultMl,servingKind,kcal,source,version,barcodes
 "busch-light","Light","Busch","beer_light","4.1","354.9","can","100","curated","1",""
 "pabst-blue-ribbon-light","Light","Pabst Blue Ribbon","beer_light","3.8","354.9","can","84","curated","1",""
 "oskar-blues-dale-s-light-lager","Dale's Light Lager","Oskar Blues","beer_light","4.2","354.9","can","110","curated","1",""
+"last-word","Last Word","","cocktail_classic","25.0","103.5","cocktail","172","curated","1",""
+"standard-lager-ale-4-oz-flight-pour","Standard Lager/Ale — 4 oz flight pour","","beer_standard","5.0","118.3","flight","45","curated","1",""
