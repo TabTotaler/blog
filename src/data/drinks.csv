@@ -1,5 +1,4 @@
 id,name,brand,category,abv,defaultMl,servingKind,kcal,source,version,barcodes
-"miller-high-life","Miller High Life","","beer_standard","5.0","354.9","can","141","curated","1",""
 "coors-banquet","Banquet","Coors","beer_standard","5.0","354.9","can","149","curated","1",""
 "corona-extra","Extra","Corona","beer_standard","4.6","354.9","can","148","curated","1",""
 "heineken","Heineken","","beer_standard","5.0","354.9","can","142","curated","1",""
@@ -1069,3 +1068,4 @@ id,name,brand,category,abv,defaultMl,servingKind,kcal,source,version,barcodes
 "last-word","Last Word","","cocktail_classic","25.0","103.5","cocktail","172","curated","1",""
 "standard-lager-ale-4-oz-flight-pour","Standard Lager/Ale — 4 oz flight pour","","beer_standard","5.0","118.3","flight","45","curated","1",""
 "budweiser","Budweiser","","beer_standard","5.0","354.9","can","145","curated","1",""
+"miller-high-life","Miller High Life","","beer_standard","5.0","354.9","can","141","curated","1",""
