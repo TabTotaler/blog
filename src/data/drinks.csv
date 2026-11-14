@@ -1,5 +1,4 @@
 id,name,brand,category,abv,defaultMl,servingKind,kcal,source,version,barcodes
-"coors-banquet","Banquet","Coors","beer_standard","5.0","354.9","can","149","curated","1",""
 "corona-extra","Extra","Corona","beer_standard","4.6","354.9","can","148","curated","1",""
 "heineken","Heineken","","beer_standard","5.0","354.9","can","142","curated","1",""
 "stella-artois","Stella Artois","","beer_standard","5.0","354.9","can","141","curated","1",""
@@ -649,7 +648,6 @@ id,name,brand,category,abv,defaultMl,servingKind,kcal,source,version,barcodes
 "off-8712000900045","Heineken Beer","Heineken Bier","beer_standard","5.0","500.0","can","210","openfoodfacts","1","8712000900045"
 "off-3272460122272","Bière blonde pur malt","Jade","beer_standard","4.5","250.0","can","115","openfoodfacts","1","3272460122272"
 "off-5410228142027","Jupiler Belgisch pils krat","Jupiler","beer_standard","5.2","354.9","can","43","openfoodfacts","1","5410228142027"
-"off-4008287050134","GT-Mobility - Tankstelle , KFZ-Service , Abschlepp- & Bergedienst","Krombacher","beer_standard","4.8","5000.0","bottle","190","openfoodfacts","1","4008287050134"
 "off-4008287056020","Krombacher Pils","Krombacher","beer_standard","4.8","330.0","can","125","openfoodfacts","1","4008287056020"
 "off-3080216051536","Kronenbourg Bière blonde 4.2%vol","Kronenbourg","beer_standard","4.2","250.0","can","88","openfoodfacts","1","3080216051536"
 "off-5410228142218","Leffe Blonde 🍺","Leffe","beer_standard","6.6","330.0","can","191","openfoodfacts","1","5410228142218"
@@ -1069,3 +1067,5 @@ id,name,brand,category,abv,defaultMl,servingKind,kcal,source,version,barcodes
 "standard-lager-ale-4-oz-flight-pour","Standard Lager/Ale — 4 oz flight pour","","beer_standard","5.0","118.3","flight","45","curated","1",""
 "budweiser","Budweiser","","beer_standard","5.0","354.9","can","145","curated","1",""
 "miller-high-life","Miller High Life","","beer_standard","5.0","354.9","can","141","curated","1",""
+"off-4008287050134","GT-Mobility - Tankstelle , KFZ-Service , Abschlepp- & Bergedienst","Krombacher","beer_standard","4.8","5000.0","bottle","190","openfoodfacts","1","4008287050134"
+"coors-banquet","Banquet","Coors","beer_standard","5.0","354.9","can","149","curated","1",""
