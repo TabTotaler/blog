@@ -1,5 +1,4 @@
 id,name,brand,category,abv,defaultMl,servingKind,kcal,source,version,barcodes
-"stella-artois","Stella Artois","","beer_standard","5.0","354.9","can","141","curated","1",""
 "dos-equis-lager","Lager","Dos Equis","beer_standard","4.5","354.9","can","130","curated","1",""
 "modelo-especial","Especial","Modelo","beer_standard","4.4","354.9","can","143","curated","1",""
 "negra-modelo","Negra Modelo","","beer_standard","5.4","354.9","can","151","curated","1",""
@@ -1069,3 +1068,4 @@ id,name,brand,category,abv,defaultMl,servingKind,kcal,source,version,barcodes
 "coors-banquet","Banquet","Coors","beer_standard","5.0","354.9","can","149","curated","1",""
 "corona-extra","Extra","Corona","beer_standard","4.6","354.9","can","148","curated","1",""
 "heineken","Heineken","","beer_standard","5.0","354.9","can","142","curated","1",""
+"stella-artois","Stella Artois","","beer_standard","5.0","354.9","can","141","curated","1",""
