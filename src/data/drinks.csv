@@ -1,5 +1,4 @@
 id,name,brand,category,abv,defaultMl,servingKind,kcal,source,version,barcodes
-"pacifico","Pacifico","","beer_standard","4.5","354.9","can","131","curated","1",""
 "rolling-rock","Rolling Rock","","beer_standard","4.5","354.9","can","133","curated","1",""
 "pabst-blue-ribbon","Pabst Blue Ribbon","","beer_standard","4.8","354.9","can","153","curated","1",""
 "guinness-draught","Draught","Guinness","beer_standard","4.2","354.9","can","125","curated","1",""
@@ -1069,3 +1068,4 @@ id,name,brand,category,abv,defaultMl,servingKind,kcal,source,version,barcodes
 "cabernet-sauvignon","Cabernet Sauvignon","","wine_red","14.5","177.4","glass","160","curated","1",""
 "negra-modelo","Negra Modelo","","beer_standard","5.4","354.9","can","151","curated","1",""
 "tecate","Tecate","","beer_standard","4.5","354.9","can","133","curated","1",""
+"pacifico","Pacifico","","beer_standard","4.5","354.9","can","131","curated","1",""
