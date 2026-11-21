@@ -1,5 +1,4 @@
 id,name,brand,category,abv,defaultMl,servingKind,kcal,source,version,barcodes
-"rolling-rock","Rolling Rock","","beer_standard","4.5","354.9","can","133","curated","1",""
 "pabst-blue-ribbon","Pabst Blue Ribbon","","beer_standard","4.8","354.9","can","153","curated","1",""
 "guinness-draught","Draught","Guinness","beer_standard","4.2","354.9","can","125","curated","1",""
 "newcastle-brown-ale","Brown Ale","Newcastle","beer_standard","5.0","354.9","can","138","curated","1",""
@@ -643,7 +642,6 @@ id,name,brand,category,abv,defaultMl,servingKind,kcal,source,version,barcodes
 "off-3080216051536","Kronenbourg Bière blonde 4.2%vol","Kronenbourg","beer_standard","4.2","250.0","can","88","openfoodfacts","1","3080216051536"
 "off-5410228142218","Leffe Blonde 🍺","Leffe","beer_standard","6.6","330.0","can","191","openfoodfacts","1","5410228142218"
 "off-5410228222941","לף בלנוד פחית","Leffe","beer_standard","6.6","500.0","can","290","openfoodfacts","1","5410228222941"
-"off-8410655000010","Cerveza Especial San Miguel","Mahou","beer_standard","5.4","330.0","can","162","openfoodfacts","1","8410655000010"
 "off-8411327022019","Cerveza Mahou Clásica","Mahou","beer_standard","4.8","330.0","can","139","openfoodfacts","1","8411327022019"
 "off-8411327122016","Cerveza especial","Mahou","beer_standard","4.5","330.0","can","162","openfoodfacts","1","8411327122016"
 "off-80067955","Peroni","Peroni","beer_standard","4.7","354.9","can","138","openfoodfacts","1","80067955"
@@ -1069,3 +1067,5 @@ id,name,brand,category,abv,defaultMl,servingKind,kcal,source,version,barcodes
 "negra-modelo","Negra Modelo","","beer_standard","5.4","354.9","can","151","curated","1",""
 "tecate","Tecate","","beer_standard","4.5","354.9","can","133","curated","1",""
 "pacifico","Pacifico","","beer_standard","4.5","354.9","can","131","curated","1",""
+"off-8410655000010","Cerveza Especial San Miguel","Mahou","beer_standard","5.4","330.0","can","162","openfoodfacts","1","8410655000010"
+"rolling-rock","Rolling Rock","","beer_standard","4.5","354.9","can","133","curated","1",""
