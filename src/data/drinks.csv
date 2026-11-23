@@ -1,5 +1,4 @@
 id,name,brand,category,abv,defaultMl,servingKind,kcal,source,version,barcodes
-"guinness-draught","Draught","Guinness","beer_standard","4.2","354.9","can","125","curated","1",""
 "newcastle-brown-ale","Brown Ale","Newcastle","beer_standard","5.0","354.9","can","138","curated","1",""
 "bass-pale-ale","Pale Ale","Bass","beer_standard","4.7","354.9","can","156","curated","1",""
 "sierra-nevada-nooner-pilsner","Nooner Pilsner","Sierra Nevada","beer_standard","5.0","354.9","can","155","curated","1",""
@@ -131,7 +130,6 @@ id,name,brand,category,abv,defaultMl,servingKind,kcal,source,version,barcodes
 "montepulciano","Montepulciano","","wine_red","14.0","177.4","glass","155","curated","1",""
 "cotes-du-rhone-red","Côtes du Rhône Red","","wine_red","14.5","177.4","glass","160","curated","1",""
 "sparkling-rose-2-oz-tasting-pour","Sparkling / Rosé — 2 oz tasting pour","","wine_sparkling","12.0","59.1","glass","45","curated","1",""
-"champagne","Champagne","","wine_sparkling","12.0","177.4","glass","136","curated","1",""
 "prosecco","Prosecco","","wine_sparkling","11.0","177.4","glass","126","curated","1",""
 "cava","Cava","","wine_sparkling","11.5","177.4","glass","131","curated","1",""
 "sparkling-rose","Sparkling Rosé","","wine_sparkling","12.0","177.4","glass","136","curated","1",""
@@ -1069,3 +1067,5 @@ id,name,brand,category,abv,defaultMl,servingKind,kcal,source,version,barcodes
 "off-8410655000010","Cerveza Especial San Miguel","Mahou","beer_standard","5.4","330.0","can","162","openfoodfacts","1","8410655000010"
 "rolling-rock","Rolling Rock","","beer_standard","4.5","354.9","can","133","curated","1",""
 "pabst-blue-ribbon","Pabst Blue Ribbon","","beer_standard","4.8","354.9","can","153","curated","1",""
+"champagne","Champagne","","wine_sparkling","12.0","177.4","glass","136","curated","1",""
+"guinness-draught","Draught","Guinness","beer_standard","4.2","354.9","can","125","curated","1",""
