@@ -1,5 +1,4 @@
 id,name,brand,category,abv,defaultMl,servingKind,kcal,source,version,barcodes
-"newcastle-brown-ale","Brown Ale","Newcastle","beer_standard","5.0","354.9","can","138","curated","1",""
 "bass-pale-ale","Pale Ale","Bass","beer_standard","4.7","354.9","can","156","curated","1",""
 "sierra-nevada-nooner-pilsner","Nooner Pilsner","Sierra Nevada","beer_standard","5.0","354.9","can","155","curated","1",""
 "new-belgium-fat-tire-amber-ale","Fat Tire Amber Ale","New Belgium","beer_standard","5.2","354.9","can","160","curated","1",""
@@ -394,7 +393,6 @@ id,name,brand,category,abv,defaultMl,servingKind,kcal,source,version,barcodes
 "jungle-bird","Jungle Bird","","cocktail_tiki","12.0","207.0","cocktail","165","curated","1",""
 "painkiller","Painkiller","","cocktail_tiki","14.0","177.4","cocktail","165","curated","1",""
 "hurricane","Hurricane","","cocktail_tiki","12.0","236.6","cocktail","188","curated","1",""
-"scorpion-bowl-per-person","Scorpion Bowl — per person","","cocktail_tiki","10.0","207.0","cocktail","137","curated","1",""
 "bahama-mama","Bahama Mama","","cocktail_tiki","10.0","236.6","cocktail","157","curated","1",""
 "lava-flow","Lava Flow","","cocktail_tiki","8.0","236.6","cocktail","125","curated","1",""
 "missionary-s-downfall","Missionary's Downfall","","cocktail_tiki","12.0","177.4","cocktail","141","curated","1",""
@@ -1069,3 +1067,5 @@ id,name,brand,category,abv,defaultMl,servingKind,kcal,source,version,barcodes
 "pabst-blue-ribbon","Pabst Blue Ribbon","","beer_standard","4.8","354.9","can","153","curated","1",""
 "champagne","Champagne","","wine_sparkling","12.0","177.4","glass","136","curated","1",""
 "guinness-draught","Draught","Guinness","beer_standard","4.2","354.9","can","125","curated","1",""
+"scorpion-bowl-per-person","Scorpion Bowl — per person","","cocktail_tiki","10.0","207.0","cocktail","137","curated","1",""
+"newcastle-brown-ale","Brown Ale","Newcastle","beer_standard","5.0","354.9","can","138","curated","1",""
