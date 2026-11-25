@@ -1,5 +1,4 @@
 id,name,brand,category,abv,defaultMl,servingKind,kcal,source,version,barcodes
-"bass-pale-ale","Pale Ale","Bass","beer_standard","4.7","354.9","can","156","curated","1",""
 "sierra-nevada-nooner-pilsner","Nooner Pilsner","Sierra Nevada","beer_standard","5.0","354.9","can","155","curated","1",""
 "new-belgium-fat-tire-amber-ale","Fat Tire Amber Ale","New Belgium","beer_standard","5.2","354.9","can","160","curated","1",""
 "oskar-blues-mas-lima-lime-lager","Mas Lima Lime Lager","Oskar Blues","beer_standard","4.2","354.9","can","128","curated","1",""
@@ -264,7 +263,6 @@ id,name,brand,category,abv,defaultMl,servingKind,kcal,source,version,barcodes
 "amaretto-sour","Amaretto Sour","","cocktail_classic","20.0","118.3","cocktail","157","curated","1",""
 "margarita","Margarita","","cocktail_popular","15.0","118.3","cocktail","165","curated","1",""
 "mojito","Mojito","","cocktail_popular","12.0","147.9","cocktail","168","curated","1",""
-"cosmopolitan","Cosmopolitan","","cocktail_popular","20.0","118.3","cocktail","150","curated","1",""
 "moscow-mule","Moscow Mule","","cocktail_popular","10.0","177.4","cocktail","185","curated","1",""
 "gin-tonic","Gin & Tonic","","cocktail_popular","10.0","236.6","cocktail","132","curated","1",""
 "vodka-soda","Vodka Soda","","cocktail_popular","10.0","236.6","cocktail","97","curated","1",""
@@ -1069,3 +1067,5 @@ id,name,brand,category,abv,defaultMl,servingKind,kcal,source,version,barcodes
 "guinness-draught","Draught","Guinness","beer_standard","4.2","354.9","can","125","curated","1",""
 "scorpion-bowl-per-person","Scorpion Bowl — per person","","cocktail_tiki","10.0","207.0","cocktail","137","curated","1",""
 "newcastle-brown-ale","Brown Ale","Newcastle","beer_standard","5.0","354.9","can","138","curated","1",""
+"cosmopolitan","Cosmopolitan","","cocktail_popular","20.0","118.3","cocktail","150","curated","1",""
+"bass-pale-ale","Pale Ale","Bass","beer_standard","4.7","354.9","can","156","curated","1",""
