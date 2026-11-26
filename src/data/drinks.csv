@@ -1,5 +1,4 @@
 id,name,brand,category,abv,defaultMl,servingKind,kcal,source,version,barcodes
-"sierra-nevada-nooner-pilsner","Nooner Pilsner","Sierra Nevada","beer_standard","5.0","354.9","can","155","curated","1",""
 "new-belgium-fat-tire-amber-ale","Fat Tire Amber Ale","New Belgium","beer_standard","5.2","354.9","can","160","curated","1",""
 "oskar-blues-mas-lima-lime-lager","Mas Lima Lime Lager","Oskar Blues","beer_standard","4.2","354.9","can","128","curated","1",""
 "stone-tropic-of-thunder-lager","Tropic of Thunder Lager","Stone","beer_standard","5.8","354.9","can","175","curated","1",""
@@ -1069,3 +1068,4 @@ id,name,brand,category,abv,defaultMl,servingKind,kcal,source,version,barcodes
 "newcastle-brown-ale","Brown Ale","Newcastle","beer_standard","5.0","354.9","can","138","curated","1",""
 "cosmopolitan","Cosmopolitan","","cocktail_popular","20.0","118.3","cocktail","150","curated","1",""
 "bass-pale-ale","Pale Ale","Bass","beer_standard","4.7","354.9","can","156","curated","1",""
+"sierra-nevada-nooner-pilsner","Nooner Pilsner","Sierra Nevada","beer_standard","5.0","354.9","can","155","curated","1",""
